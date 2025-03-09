@@ -23,7 +23,7 @@
             line-height: 1.7;
         }
 
-        /* Хедер с фоном */
+        /* Хедер с СОХРАНЕННЫМ изображением */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                         url('https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13') center/cover;
@@ -129,7 +129,7 @@
             border: 5px solid var(--primary);
         }
 
-        /* Футер с растянутым изображением */
+        /* Футер с НОВЫМ изображением */
         .footer {
             background: var(--primary);
             color: white;
@@ -160,7 +160,7 @@
     </style>
 </head>
 <body>
-    <!-- Хедер -->
+    <!-- Хедер с СОХРАНЕННЫМ фоном -->
     <section class="hero">
         <h1>Цифровой рубль 2025</h1>
         <p>Безопасные платежи, инновации, государственные гарантии</p>
@@ -171,7 +171,7 @@
         </div>
     </section>
 
-    <!-- История -->
+    <!-- История с СОХРАНЕННЫМИ изображениями -->
     <section id="history" class="history-section">
         <h2 style="color: var(--secondary); text-align: center;">Эволюция цифрового рубля</h2>
         <div class="history-card">
@@ -237,9 +237,9 @@
         </div>
     </section>
 
-    <!-- Футер с растянутой картинкой -->
+    <!-- Футер с НОВЫМ изображением -->
     <footer class="footer">
-        <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" 
+        <img src="https://avatars.mds.yandex.net/i?id=4eeb6e719e83bc0a8359cbda2116b19e_l-10639796-images-thumbs&n=13" 
              alt="Цифровой рубль 2025"
              class="footer-logo">
         <p>© 2025 Цифровая экономика. Все права защищены</p>
