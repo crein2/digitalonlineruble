@@ -1,11 +1,22 @@
 <html lang="ru">
 <head>
+    <!-- Основные метатеги -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль: технологии, интеграция, перспективы до 2025</title>
-    <meta name="description" content="Полное руководство по цифровому рублю: как работает блокчейн ЦБ РФ, преимущества для граждан и бизнеса, этапы внедрения до 2025 года, сравнение с криптовалютами и PayPal.">
-    <meta name="keywords" content="цифровой рубль, ЦБ РФ, блокчейн, смарт-контракты, цифровая валюта, финтех, 2025, IoT, криптовалюта">
+    <title>Цифровой рубль 2025: официальный гайд, технологии, интеграция</title>
+    <meta name="description" content="Полное руководство по цифровому рублю: блокчейн ЦБ РФ, преимущества для бизнеса и граждан, этапы внедрения до 2025 года. Официальная информация и сравнение с криптовалютами.">
+    <meta name="keywords" content="цифровой рубль, ЦБ РФ, блокчейн, смарт-контракты, цифровая валюта, финтех, 2025, IoT, платежные системы">
+
+    <!-- Социальные метатеги -->
+    <meta property="og:title" content="Цифровой рубль 2025: будущее финансов">
+    <meta property="og:description" content="Узнайте о новой форме национальной валюты: технологии, законы, преимущества.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/digital-ruble-banner.jpg">
+    <meta property="og:url" content="https://example.com/digital-ruble">
+
+    <!-- Подключение ресурсов -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <style>
         :root {
             --primary: #2962ff;
@@ -24,87 +35,113 @@
             line-height: 1.7;
         }
 
+        /* Хедер с фоновым изображением */
         .hero {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://example.com/digital-ruble-bg.jpg') center/cover;
             color: white;
-            padding: 60px 20px;
+            padding: 120px 20px;
             text-align: center;
+            position: relative;
+        }
+
+        .hero-logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 120px;
+            height: auto;
         }
 
         .hero h1 {
-            font-size: 2.5em;
+            font-size: 3em;
             margin-bottom: 20px;
         }
 
         .cta-buttons {
-            margin-top: 30px;
+            margin-top: 40px;
         }
 
         .cta-button {
-            display: inline-block;
-            padding: 12px 30px;
-            border-radius: 30px;
+            padding: 15px 40px;
+            border-radius: 40px;
             text-decoration: none;
-            font-weight: 600;
+            font-weight: 700;
             transition: 0.3s;
             margin: 10px;
+            display: inline-block;
         }
 
+        /* Секция с преимуществами */
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            padding: 40px 20px;
+            gap: 40px;
+            padding: 60px 20px;
         }
 
         .feature-card {
             background: white;
-            border-radius: 15px;
-            padding: 30px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
             transition: 0.3s;
+            text-align: center;
         }
 
         .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.2);
         }
 
-        .timeline {
-            background: white;
-            border-radius: 15px;
-            padding: 40px 20px;
-            margin: 40px 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .timeline-item {
-            position: relative;
-            padding-left: 40px;
-            margin-bottom: 30px;
-        }
-
-        .timeline-icon {
-            position: absolute;
-            left: 0;
-            top: 0;
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 25px;
             background: var(--primary);
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
+            border-radius: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            font-weight: bold;
+            font-size: 2em;
         }
 
+        /* Дорожная карта */
+        .timeline {
+            background: var(--surface);
+            border-radius: 20px;
+            padding: 60px 20px;
+            margin: 60px 0;
+        }
+
+        .timeline-item {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 50px;
+            align-items: center;
+        }
+
+        .timeline-icon {
+            flex: 0 0 60px;
+            text-align: center;
+        }
+
+        .timeline-icon img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--primary);
+            padding: 10px;
+        }
+
+        /* Сравнительная таблица */
         .compare-section {
-            padding: 40px 20px;
+            padding: 60px 20px;
         }
 
         .compare-container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
             overflow-x: auto;
         }
@@ -112,219 +149,174 @@
         .compare-table {
             width: 100%;
             border-collapse: collapse;
-            min-width: 600px;
-        }
-
-        .compare-table th, .compare-table td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #eee;
+            min-width: 800px;
         }
 
         .compare-table th {
             background: var(--primary);
             color: white;
+            padding: 20px;
+            white-space: nowrap;
         }
 
+        .compare-table td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Футер */
         .footer {
             background: var(--primary);
             color: white;
             text-align: center;
-            padding: 30px;
-            border-radius: 15px;
-            margin-top: 40px;
+            padding: 40px;
         }
 
-        .footer a {
-            color: white;
-            text-decoration: underline;
-            margin: 0 10px;
-            transition: 0.3s;
+        .footer-logo {
+            width: 150px;
+            margin-bottom: 20px;
         }
 
-        .footer a:hover {
-            color: #e6e6e6;
-        }
-
+        /* Адаптивность */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2em;
+            .hero {
+                padding: 80px 20px;
+            }
+            
+            .timeline-item {
+                flex-direction: column;
+                text-align: center;
             }
         }
     </style>
 </head>
 <body>
+    <!-- Хедер с фоном и логотипом -->
     <section class="hero">
-        <h1>Цифровой рубль: будущее уже здесь</h1>
-        <p>Узнайте, как цифровая валюта ЦБ РФ изменит финансовый мир к 2025 году</p>
+        <img src="https://example.com/cbr-logo.png" 
+             alt="Центральный Банк РФ" 
+             class="hero-logo">
+        <h1>Цифровой рубль 2025</h1>
+        <p>Новая эра финансовых технологий - безопасность, скорость, инновации</p>
         <div class="cta-buttons">
-            <a href="#how" class="cta-button" style="background: var(--primary); color: white;">Как это работает?</a>
-            <a href="https://www.cbr.ru/" target="_blank" class="cta-button" style="background: var(--accent); color: white;">Сайт ЦБ РФ</a>
+            <a href="#technology" class="cta-button" style="background: var(--primary); color: white;">Технологии</a>
+            <a href="https://www.cbr.ru/" target="_blank" class="cta-button" style="background: var(--accent); color: white;">ЦБ РФ</a>
         </div>
     </section>
 
-    <section id="how">
+    <!-- Технологии -->
+    <section id="technology">
         <div class="features-grid">
             <div class="feature-card">
-                <h3>Блокчейн-инфраструктура</h3>
-                <ul>
-                    <li>Гибридный блокчейн с поддержкой смарт-контрактов</li>
-                    <li>Криптография уровня банковских систем</li>
-                    <li>Резервные узлы в 15 регионах РФ</li>
-                </ul>
-                <p>Технология обеспечивает:</p>
-                <ul>
-                    <li>Мгновенную синхронизацию платежей</li>
-                    <li>Защиту от двойного расходования средств</li>
-                    <li>Полную прозрачность для регуляторов</li>
-                </ul>
+                <div class="feature-icon">🔗</div>
+                <h3>Блокчейн</h3>
+                <p>Гибридная система с поддержкой смарт-контрактов</p>
             </div>
             <div class="feature-card">
-                <h3>Цифровые кошельки</h3>
-                <ul>
-                    <li>Мобильное приложение ЦБ РФ</li>
-                    <li>Банковские приложения-партнеры</li>
-                    <li>Смарт-карты с NFC</li>
-                </ul>
-                <p>Функции кошелька:</p>
-                <ul>
-                    <li>Автономная работа до 72 часов</li>
-                    <li>Биометрическая аутентификация</li>
-                    <li>Интеграция с Госуслугами</li>
-                </ul>
+                <div class="feature-icon">💳</div>
+                <h3>Кошельки</h3>
+                <p>Мобильные приложения и смарт-карты с NFC</p>
             </div>
             <div class="feature-card">
-                <h3>Юридическая база</h3>
-                <ul>
-                    <li>ФЗ № 259-ФЗ от 24.07.2023</li>
-                    <li>Постановление Правительства № 1581</li>
-                    <li>Положение ЦБ РФ № 642-П</li>
-                </ul>
-                <p>Гарантии:</p>
-                <ul>
-                    <li>Страхование вкладов до 10 млн ₽</li>
-                    <li>Судебная защита операций</li>
-                    <li>Контроль Росфинмониторинга</li>
-                </ul>
+                <div class="feature-icon">📜</div>
+                <h3>Законодательство</h3>
+                <p>ФЗ № 259-ФЗ и другие правовые акты</p>
             </div>
         </div>
     </section>
 
+    <!-- Дорожная карта -->
     <section class="timeline">
-        <h2 style="text-align: center; color: var(--secondary);">Дорожная карта до 2025 года</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Планы внедрения</h2>
         <div class="timeline-item">
-            <div class="timeline-icon">1</div>
-            <div class="timeline-content">
-                <h3>2022 - Исследовательская фаза</h3>
-                <p>Создание прототипа платформы, тестирование на закрытых полигонах</p>
+            <div class="timeline-icon">
+                <img src="https://example.com/2022-icon.png" alt="2022">
+            </div>
+            <div>
+                <h3>2022: Начало</h3>
+                <p>Создание прототипа, первые тесты</p>
             </div>
         </div>
         <div class="timeline-item">
-            <div class="timeline-icon">2</div>
-            <div class="timeline-content">
-                <h3>2023 - Пилотный запуск</h3>
-                <p>Первые транзакции между физическими лицами, интеграция с 12 банками</p>
+            <div class="timeline-icon">
+                <img src="https://example.com/2023-icon.png" alt="2023">
+            </div>
+            <div>
+                <h3>2023: Эксперименты</h3>
+                <p>Транзакции между физлицами</p>
             </div>
         </div>
         <div class="timeline-item">
-            <div class="timeline-icon">3</div>
-            <div class="timeline-content">
-                <h3>2024 - Массовое тестирование</h3>
-                <p>Подключение 500+ предприятий, офлайн-платежи, пилот международных расчетов</p>
+            <div class="timeline-icon">
+                <img src="https://example.com/2024-icon.png" alt="2024">
+            </div>
+            <div>
+                <h3>2024: Расширение</h3>
+                <p>Подключение малого бизнеса</p>
             </div>
         </div>
         <div class="timeline-item">
-            <div class="timeline-icon">4</div>
-            <div class="timeline-content">
-                <h3>2025 - Полное внедрение</h3>
-                <p>Запуск смарт-контрактов, интеграция с IoT-устройствами, кросс-валютные операции</p>
+            <div class="timeline-icon">
+                <img src="https://example.com/2025-icon.png" alt="2025">
+            </div>
+            <div>
+                <h3>2025: Массовое использование</h3>
+                <p>Интеграция с госуслугами</p>
             </div>
         </div>
     </section>
 
+    <!-- Сравнение -->
     <section class="compare-section">
-        <h2 style="text-align: center; color: var(--secondary);">Сравнение платежных систем</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Сравнение систем</h2>
         <div class="compare-container">
             <table class="compare-table">
                 <tr>
                     <th>Критерий</th>
-                    <th>Цифровой рубль</th>
-                    <th>Криптовалюты</th>
-                    <th>PayPal</th>
+                    <th>
+                        <img src="https://example.com/digital-ruble-icon.png" 
+                             alt="Цифровой рубль" 
+                             style="width:40px; vertical-align: middle;">
+                        Цифровой рубль
+                    </th>
+                    <th>
+                        <img src="https://example.com/crypto-icon.png" 
+                             alt="Криптовалюты" 
+                             style="width:40px; vertical-align: middle;">
+                        Криптовалюты
+                    </th>
+                    <th>
+                        <img src="https://example.com/paypal-icon.png" 
+                             alt="PayPal" 
+                             style="width:40px; vertical-align: middle;">
+                        PayPal
+                    </th>
                 </tr>
                 <tr>
                     <td>Регулирование</td>
                     <td>Центральный Банк РФ</td>
                     <td>Децентрализовано</td>
-                    <td>Международные регуляторы</td>
+                    <td>Международные нормы</td>
                 </tr>
                 <tr>
                     <td>Комиссии</td>
-                    <td>0.1% (максимум)</td>
-                    <td>5-15% (в зависимости от сети)</td>
+                    <td>0.1%</td>
+                    <td>5-15%</td>
                     <td>3-5% + конвертация</td>
-                </tr>
-                <tr>
-                    <td>Скорость</td>
-                    <td>3 секунды (мгновенно)</td>
-                    <td>10-60 минут (зависит от блокчейна)</td>
-                    <td>Мгновенно (с задержкой зачисления)</td>
-                </tr>
-                <tr>
-                    <td>Анонимность</td>
-                    <td>Частичная (для малых сумм)</td>
-                    <td>Полная (для большинства криптовалют)</td>
-                    <td>Нет (полная идентификация)</td>
-                </tr>
-                <tr>
-                    <td>Гарантии</td>
-                    <td>Государственные (ФЗ № 259)</td>
-                    <td>Отсутствуют</td>
-                    <td>Корпоративные (PayPal Inc.)</td>
-                </tr>
-                <tr>
-                    <td>Поддержка</td>
-                    <td>24/7 через ЦБ РФ</td>
-                    <td>Сообщества и форумы</td>
-                    <td>Чат-боты и колл-центр</td>
                 </tr>
             </table>
         </div>
     </section>
 
-    <section class="features-grid" style="padding: 40px 20px;">
-        <div class="feature-card">
-            <h3>Для граждан</h3>
-            <ul>
-                <li>Переводы до 100 000 ₽ без комиссии</li>
-                <li>Оплата ЖКХ через Госуслуги</li>
-                <li>Контроль расходов в реальном времени</li>
-            </ul>
-        </div>
-        <div class="feature-card">
-            <h3>Для бизнеса</h3>
-            <ul>
-                <li>Автоматизация расчетов с поставщиками</li>
-                <li>Снижение налоговой нагрузки на 15%</li>
-                <li>Интеграция с 1С и ERP-системами</li>
-            </ul>
-        </div>
-        <div class="feature-card">
-            <h3>Для государства</h3>
-            <ul>
-                <li>Снижение наличного оборота на 40%</li>
-                <li>Контроль за теневыми операциями</li>
-                <li>Упрощение налогового администрирования</li>
-            </ul>
-        </div>
-    </section>
-
+    <!-- Футер -->
     <footer class="footer">
+        <img src="https://example.com/cbr-logo-footer.png" 
+             alt="Логотип ЦБ РФ" 
+             class="footer-logo">
         <p>© 2024-2025 Цифровая экономика. Все права защищены</p>
         <p>
-            Официальный источник: 
-            <a href="https://www.cbr.ru/" target="_blank" title="Центральный Банк Российской Федерации">
-                ЦБ РФ
+            <a href="https://www.cbr.ru/" target="_blank" style="color: white; text-decoration: underline;">
+                Официальный сайт ЦБ РФ
             </a>
         </p>
     </footer>
