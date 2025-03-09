@@ -23,7 +23,7 @@
             line-height: 1.7;
         }
 
-        /* Хедер */
+        /* Хедер с фоном */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                         url('https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13') center/cover;
@@ -174,16 +174,70 @@
     <!-- История -->
     <section id="history" class="history-section">
         <h2 style="color: var(--secondary); text-align: center;">Эволюция цифрового рубля</h2>
-        <!-- ... (оставшиеся history-card) ... -->
+        <div class="history-card">
+            <div class="history-icon">
+                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Глобальный тренд">
+            </div>
+            <div>
+                <h3>Всемирный опыт</h3>
+                <p>К 2025 году 93% стран имеют национальные CBDC. Россия адаптирует лучшие практики с учетом локальных особенностей.</p>
+            </div>
+        </div>
+        <div class="history-card">
+            <div class="history-icon">
+                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Российская разработка">
+            </div>
+            <div>
+                <h3>Российская разработка</h3>
+                <p>Создание прототипа начато в 2022 году. К 2025 году система прошла 3 этапа тестирования с участием 50+ банков.</p>
+            </div>
+        </div>
+        <div class="history-card">
+            <div class="history-icon">
+                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Законодательство">
+            </div>
+            <div>
+                <h3>Юридическая база</h3>
+                <p>ФЗ №259-ФЗ от 24.07.2023 устанавливает равные права цифрового рубля с наличными и безналичными средствами.</p>
+            </div>
+        </div>
     </section>
 
     <!-- Технологии -->
     <section id="tech" class="tech-section">
         <h2 style="color: var(--secondary); text-align: center;">Технологии будущего</h2>
-        <!-- ... (tech-grid содержимое) ... -->
+        <div class="tech-grid">
+            <div class="tech-card">
+                <h3>Блокчейн 3.0</h3>
+                <p>Гибридная сеть с:</p>
+                <ul>
+                    <li>Квантовой защитой</li>
+                    <li>Самовосстанавливающимися узлами</li>
+                    <li>Энергоэффективностью</li>
+                </ul>
+            </div>
+            <div class="tech-card">
+                <h3>IoT-интеграция</h3>
+                <p>Автоматические платежи через:</p>
+                <ul>
+                    <li>Умные счетчики ЖКХ</li>
+                    <li>Автомобильные сенсоры</li>
+                    <li>Городские системы</li>
+                </ul>
+            </div>
+            <div class="tech-card">
+                <h3>Международные расчеты</h3>
+                <p>Поддержка:</p>
+                <ul>
+                    <li>15 валют через SWIFT</li>
+                    <li>Кросс-граничные переводы</li>
+                    <li>Торговля цифровыми активами</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <!-- Футер с растянутым изображением -->
+    <!-- Футер с растянутой картинкой -->
     <footer class="footer">
         <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" 
              alt="Цифровой рубль 2025"
