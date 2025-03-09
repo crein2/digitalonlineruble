@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Цифровой рубль 2025: эволюция криптовалют</title>
-    <meta name="description" content="История криптовалют и цифрового рубля. Как меняются платежные системы и зачем нужен Центробанк.">
+    <meta name="description" content="Простое объяснение цифровой валюты. История криптовалют от Bitcoin до цифрового рубля. Преимущества государственной криптовалюты.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -27,6 +27,14 @@
             color: white;
             padding: 150px 20px;
             text-align: center;
+        }
+
+        .definition-box {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            border-left: 5px solid var(--primary);
+            margin: 20px 0;
         }
 
         .history-section {
@@ -75,6 +83,19 @@
     <section class="hero">
         <h1>Цифровой рубль 2025</h1>
         <p>От биткоина до национальной цифровой валюты</p>
+        
+        <!-- Новое определение -->
+        <div class="definition-box" style="background: rgba(255,255,255,0.9); margin: 20px auto; max-width: 800px;">
+            <h3 style="color: var(--secondary);">Что такое цифровая валюта?</h3>
+            <p>Это электронные деньги от Центробанка:</p>
+            <ul>
+                <li>Равны наличным по закону</li>
+                <li>Хранятся в мобильном приложении</li>
+                <li>Защищены криптографией</li>
+                <li>Работают без интернета</li>
+            </ul>
+        </div>
+        
         <div class="cta-buttons">
             <a href="#history" class="cta-button">История криптовалюты</a>
             <a href="#relevance" class="cta-button">Актуальность</a>
@@ -85,6 +106,7 @@
     <section id="history" class="history-section">
         <h2 style="color: var(--secondary); text-align: center;">История криптовалюты</h2>
         
+        <!-- Существующие карточки -->
         <div class="history-card">
             <div class="history-icon">
                 <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Bitcoin">
@@ -114,11 +136,33 @@
                 <p>Запуск цифрового юаня в Китае</p>
             </div>
         </div>
+        
+        <!-- Новые карточки истории -->
+        <div class="history-card">
+            <div class="history-icon">
+                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="DeFi">
+            </div>
+            <div>
+                <h3>2020: DeFi-бум</h3>
+                <p>Взрывной рост децентрализованных финансов</p>
+            </div>
+        </div>
+        
+        <div class="history-card">
+            <div class="history-icon">
+                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="NFT">
+            </div>
+            <div>
+                <h3>2021: NFT-революция</h3>
+                <p>Токенизация цифровых активов</p>
+            </div>
+        </div>
     </section>
 
     <section id="relevance" class="relevance-section">
         <h2 style="color: var(--secondary); text-align: center;">Зачем нужен цифровой рубль?</h2>
         <div class="relevance-grid">
+            <!-- Существующие карточки -->
             <div class="relevance-card">
                 <h3>Безопасность</h3>
                 <p>Защита от подделок с помощью блокчейна</p>
@@ -134,6 +178,16 @@
             <div class="relevance-card">
                 <h3>Доступность</h3>
                 <p>Работа без интернета 72 часа</p>
+            </div>
+            
+            <!-- Новые карточки актуальности -->
+            <div class="relevance-card">
+                <h3>Инновации</h3>
+                <p>Возможность смарт-контрактов</p>
+            </div>
+            <div class="relevance-card">
+                <h3>Международность</h3>
+                <p>Поддержка 20+ валют в SWIFT</p>
             </div>
         </div>
     </section>
