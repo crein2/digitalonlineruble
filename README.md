@@ -23,10 +23,10 @@
             line-height: 1.7;
         }
 
-        /* Хедер с СОХРАНЕННЫМ изображением */
+        /* Хедер с ПЕРВЫМ изображением */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                        url('https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13') center/cover;
+                        url('https://avatars.mds.yandex.net/i?id=d8abf913df627bbaaef0c4fd6b44ec46_l-3979407-images-thumbs&n=13') center/cover;
             color: white;
             padding: 150px 20px;
             text-align: center;
@@ -50,7 +50,7 @@
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
         }
 
-        /* История */
+        /* История с ВТОРЫМ изображением */
         .history-section {
             background: var(--surface);
             border-radius: 20px;
@@ -102,7 +102,7 @@
             box-shadow: 0 12px 30px rgba(0,0,0,0.15);
         }
 
-        /* Дорожная карта */
+        /* Дорожная карта с ТРЕТЬИМ изображением */
         .timeline {
             background: var(--surface);
             border-radius: 20px;
@@ -129,21 +129,17 @@
             border: 5px solid var(--primary);
         }
 
-        /* Футер с НОВЫМ изображением */
+        /* Футер с сохраненным изображением */
         .footer {
             background: var(--primary);
             color: white;
             text-align: center;
             padding: 40px 20px;
-            position: relative;
         }
 
         .footer-logo {
-            width: 100%;
-            max-width: 1200px;
-            height: auto;
-            margin: 0 auto 25px;
-            display: block;
+            width: 240px;
+            margin-bottom: 25px;
         }
 
         @media (max-width: 768px) {
@@ -160,7 +156,7 @@
     </style>
 </head>
 <body>
-    <!-- Хедер с СОХРАНЕННЫМ фоном -->
+    <!-- Хедер с ПЕРВЫМ изображением -->
     <section class="hero">
         <h1>Цифровой рубль 2025</h1>
         <p>Безопасные платежи, инновации, государственные гарантии</p>
@@ -171,12 +167,12 @@
         </div>
     </section>
 
-    <!-- История с СОХРАНЕННЫМИ изображениями -->
+    <!-- История с ВТОРЫМ изображением -->
     <section id="history" class="history-section">
         <h2 style="color: var(--secondary); text-align: center;">Эволюция цифрового рубля</h2>
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Глобальный тренд">
+                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Глобальный тренд">
             </div>
             <div>
                 <h3>Всемирный опыт</h3>
@@ -185,7 +181,7 @@
         </div>
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Российская разработка">
+                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Российская разработка">
             </div>
             <div>
                 <h3>Российская разработка</h3>
@@ -194,7 +190,7 @@
         </div>
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Законодательство">
+                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Законодательство">
             </div>
             <div>
                 <h3>Юридическая база</h3>
@@ -237,7 +233,26 @@
         </div>
     </section>
 
-    <!-- Футер с НОВЫМ изображением -->
+    <!-- Дорожная карта с ТРЕТЬИМ изображением -->
+    <section class="timeline">
+        <h2 style="color: var(--secondary); text-align: center;">План 2025 года</h2>
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <img src="https://dpru.obs.ru-moscow-1.hc.sbercloud.ru/images/article/2023/07/19/ad4afa0f-d3e4-44cc-b3d6-3fbdb4972355.jpg" alt="2025">
+            </div>
+            <div>
+                <h3>Стратегические цели</h3>
+                <ul>
+                    <li>50 млн пользователей</li>
+                    <li>Интеграция с 200+ госуслугами</li>
+                    <li>Офлайн-режим до 72 часов</li>
+                    <li>Комиссии от 0.03%</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер с сохраненным изображением -->
     <footer class="footer">
         <img src="https://avatars.mds.yandex.net/i?id=4eeb6e719e83bc0a8359cbda2116b19e_l-10639796-images-thumbs&n=13" 
              alt="Цифровой рубль 2025"
