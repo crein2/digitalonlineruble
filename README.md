@@ -1,17 +1,18 @@
 <html lang="ru">
 <head>
+    <!-- SEO-метатеги -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: инновации, международные платежи, IoT</title>
-    <meta name="description" content="Цифровой рубль в 2025 году: смарт-контракты, интеграция с IoT, кросс-валютные операции. Официальные данные ЦБ РФ.">
-    <meta name="keywords" content="цифровой рубль 2025, ЦБ РФ, блокчейн, IoT, смарт-контракты, международные платежи, цифровая экономика">
+    <title>Цифровой рубль 2025: от идеи до реализации</title>
+    <meta name="description" content="Полная история создания цифрового рубля: от первых концепций до массового внедрения в 2025 году. Технологии блокчейн, IoT-интеграция, международные платежи. Официальная информация ЦБ РФ.">
+    <meta name="keywords" content="цифровой рубль, история создания, ЦБ РФ, блокчейн, IoT, 2025, законодательство, международные платежи">
     
-    <!-- Open Graph метатеги -->
-    <meta property="og:title" content="Цифровой рубль 2025: революция в платежах">
-    <meta property="og:description" content="Узнайте о прорывных технологиях цифрового рубля в 2025 году: безопасность, скорость, интеграция с умными устройствами">
-    <meta property="og:image" content="https://overclockers.ru/st/legacy/blog/397468/395081_O.png">
-    <meta property="og:url" content="https://ваш-сайт.com/digital-ruble-2025">
-    
+    <!-- Социальные метатеги -->
+    <meta property="og:title" content="Цифровой рубль 2025: революция платежей">
+    <meta property="og:description" content="Узнайте, как цифровой рубль эволюционировал от идеи 2017 года до государственной валюты будущего">
+    <meta property="og:image" content="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13">
+    <meta property="og:url" content="https://ваш-сайт.com/digital-ruble">
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -31,10 +32,10 @@
             line-height: 1.7;
         }
 
-        /* Хедер с анимацией */
+        /* Хедер с анимированным изображением */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                        url('https://overclockers.ru/st/legacy/blog/397468/395081_O.png') center/cover;
+                        url('https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13') center/cover;
             color: white;
             padding: 150px 20px;
             text-align: center;
@@ -52,7 +53,7 @@
             position: absolute;
             top: 30px;
             right: 30px;
-            width: 180px;
+            width: 200px;
             height: auto;
         }
 
@@ -74,8 +75,8 @@
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
         }
 
-        /* Секция с обновлениями */
-        .updates-section {
+        /* Историческая секция */
+        .history-section {
             background: var(--surface);
             border-radius: 20px;
             padding: 60px 20px;
@@ -83,23 +84,53 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        .update-card {
-            background: #f1faff;
-            border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 25px;
+        .history-card {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        .history-icon {
+            flex: 0 0 80px;
+            text-align: center;
+        }
+
+        .history-icon img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid var(--primary);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        /* Секция технологий */
+        .tech-section {
+            padding: 60px 20px;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .tech-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
             transition: 0.3s;
         }
 
-        .update-card:hover {
-            transform: translateX(10px);
-            box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .update-icon {
-            font-size: 1.5em;
-            color: var(--primary);
-            margin-bottom: 15px;
+        .tech-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
         }
 
         /* Дорожная карта */
@@ -130,11 +161,6 @@
             animation: float 3s ease-in-out infinite;
         }
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-15px); }
-        }
-
         /* Сравнительная таблица */
         .compare-table {
             width: 100%;
@@ -163,13 +189,14 @@
         }
 
         .footer-logo {
-            width: 200px;
+            width: 220px;
             margin-bottom: 25px;
         }
 
         @media (max-width: 768px) {
-            .hero {
-                padding: 100px 20px;
+            .history-card {
+                flex-direction: column;
+                text-align: center;
             }
             
             .timeline-item {
@@ -180,52 +207,98 @@
     </style>
 </head>
 <body>
-    <!-- Хедер с анимированным фоном -->
+    <!-- Хедер -->
     <section class="hero">
-        <img src="https://overclockers.ru/st/legacy/blog/397468/395081_O.png" 
+        <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" 
              alt="Цифровой рубль 2025"
              class="hero-logo">
         <h1>Цифровой рубль 2025</h1>
-        <p>Революция в финансах: инновации, безопасность, глобальные возможности</p>
+        <p>Безопасность, инновации, государственные гарантии</p>
         <div class="cta-buttons">
-            <a href="#updates" class="cta-button">Новые возможности</a>
+            <a href="#history" class="cta-button">История создания</a>
             <a href="https://www.cbr.ru/" target="_blank" class="cta-button" style="background: var(--accent);">ЦБ РФ</a>
         </div>
     </section>
 
-    <!-- Секция с обновлениями -->
-    <section id="updates" class="updates-section">
-        <h2 style="color: var(--secondary); text-align: center;">Обновления 2025 года</h2>
-        <div class="update-card">
-            <div class="update-icon">🌐</div>
-            <h3>Международные платежи</h3>
-            <p>Поддержка 15 иностранных валют и интеграция с SWIFT</p>
+    <!-- История создания -->
+    <section id="history" class="history-section">
+        <h2 style="color: var(--secondary); text-align: center;">История цифрового рубля</h2>
+        <div class="history-card">
+            <div class="history-icon">
+                <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" alt="Глобальный контекст">
+            </div>
+            <div>
+                <h3>Глобальный тренд</h3>
+                <p>Идея цифровых валют появилась в 2008 году с Bitcoin. К 2020 году 86% центральных банков мира исследовали CBDC (цифровые валюты центральных банков).</p>
+            </div>
         </div>
-        <div class="update-card">
-            <div class="update-icon">🤖</div>
-            <h3>IoT-устройства</h3>
-            <p>Оплата через умные приборы учета и IoT-сенсоры</p>
+        <div class="history-card">
+            <div class="history-icon">
+                <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" alt="Российская инициатива">
+            </div>
+            <div>
+                <h3>Российский путь</h3>
+                <p>ЦБ РФ начал исследования в 2017 году. Первый прототип представлен в 2022 году на основе гибридного блокчейна.</p>
+            </div>
         </div>
-        <div class="update-card">
-            <div class="update-icon">📜</div>
-            <h3>Смарт-контракты</h3>
-            <p>Автоматизация сделок для малого и среднего бизнеса</p>
+        <div class="history-card">
+            <div class="history-icon">
+                <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" alt="Законодательство">
+            </div>
+            <div>
+                <h3>Правовая база</h3>
+                <p>Федеральный закон №259-ФЗ от 24.07.2023 установил статус цифрового рубля как третьей формы национальной валюты.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Технологии -->
+    <section class="tech-section">
+        <h2 style="color: var(--secondary); text-align: center;">Технологическая основа</h2>
+        <div class="tech-grid">
+            <div class="tech-card">
+                <h3>Блокчейн</h3>
+                <p>Гибридная система:</p>
+                <ul>
+                    <li>Криптографическая защита</li>
+                    <li>Смарт-контракты</li>
+                    <li>Узлы ЦБ РФ и банков</li>
+                </ul>
+            </div>
+            <div class="tech-card">
+                <h3>IoT-интеграция</h3>
+                <p>Возможности:</p>
+                <ul>
+                    <li>Оплата через умные устройства</li>
+                    <li>Автоматизация ЖКХ</li>
+                    <li>Сенсорные платежи</li>
+                </ul>
+            </div>
+            <div class="tech-card">
+                <h3>Международные расчеты</h3>
+                <p>Новые функции:</p>
+                <ul>
+                    <li>Поддержка 15 валют</li>
+                    <li>Интеграция с SWIFT</li>
+                    <li>Кросс-граничные платежи</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <!-- Дорожная карта 2025 -->
     <section class="timeline">
-        <h2 style="color: var(--secondary); text-align: center;">План 2025 года</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Планы на 2025 год</h2>
         <div class="timeline-item">
             <div class="timeline-icon">
-                <img src="https://overclockers.ru/st/legacy/blog/397468/395081_O.png" alt="2025">
+                <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" alt="2025">
             </div>
             <div>
                 <h3>Ключевые цели</h3>
                 <ul>
                     <li>50 млн активных пользователей</li>
-                    <li>Интеграция с 100+ госуслуг</li>
-                    <li>Поддержка офлайн-платежей до 72 часов</li>
+                    <li>Интеграция с госуслугами</li>
+                    <li>Офлайн-платежи до 72 часов</li>
                     <li>Снижение комиссий до 0.05%</li>
                 </ul>
             </div>
@@ -248,14 +321,14 @@
                     <td>Тестовый режим</td>
                 </tr>
                 <tr>
-                    <td>IoT-интеграция</td>
-                    <td>10 млн устройств</td>
+                    <td>IoT-устройства</td>
+                    <td>10 млн подключений</td>
                     <td>500 тыс. устройств</td>
                 </tr>
                 <tr>
                     <td>Смарт-контракты</td>
-                    <td>Для всех юридических лиц</td>
-                    <td>Только для пилотных проектов</td>
+                    <td>Для всех предприятий</td>
+                    <td>Только пилотные проекты</td>
                 </tr>
             </table>
         </div>
@@ -263,7 +336,7 @@
 
     <!-- Футер -->
     <footer class="footer">
-        <img src="https://overclockers.ru/st/legacy/blog/397468/395081_O.png" 
+        <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" 
              alt="Цифровой рубль 2025"
              class="footer-logo">
         <p>© 2025 Цифровая экономика. Все права защищены</p>
