@@ -278,3 +278,35 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- ... (метатеги и стили остаются без изменений) ... -->
+</head>
+<body>
+    <!-- Хедер -->
+    <section class="hero">
+        <!-- ... (без изменений) ... -->
+    </section>
+
+    <!-- История цифровых валют -->
+    <section id="history" class="history-section">
+        <!-- ... (без изменений) ... -->
+    </section>
+
+    <!-- План внедрения -->
+    <section id="roadmap" class="roadmap-section">
+        <!-- ... (без изменений) ... -->
+    </section>
+
+    <!-- Футер без изображения -->
+    <footer class="footer">
+        <p>© 2025 Цифровая экономика. Все права защищены</p>
+        <p>
+            <a href="https://www.cbr.ru/" target="_blank" style="color: white; text-decoration: underline;">
+                Официальный сайт ЦБ РФ
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
