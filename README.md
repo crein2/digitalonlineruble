@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: актуальность и интеграция</title>
-    <meta name="description" content="Цифровой рубль как необходимость современности: снижение наличного оборота, технологическая независимость, интеграция с государственными системами.">
+    <title>Цифровой рубль 2025: ключевые этапы</title>
+    <meta name="description" content="Главные вехи цифровых валют: от Bitcoin до российского CBDC. Актуальность цифрового рубля в 2025 году.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -45,35 +46,39 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
 
-        /* История */
+        /* Укороченная история */
         .history-section {
             background: var(--surface);
             border-radius: 20px;
-            padding: 60px 20px;
+            padding: 40px 20px;
             margin: 40px 0;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
         .history-card {
-            display: grid;
-            grid-template-columns: 80px 1fr;
+            display: flex;
             gap: 30px;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
+            align-items: center;
+        }
+
+        .history-icon {
+            flex: 0 0 60px;
         }
 
         .history-icon img {
-            width: 60px;
-            height: 60px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
-            border: 3px solid var(--primary);
+            border: 2px solid var(--primary);
         }
 
-        /* Актуальность цифровой валюты */
+        /* Актуальность */
         .relevance-section {
             background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
                         url('https://avatars.mds.yandex.net/i?id=a89830aadfe8aa74d11e675bfc2b08f8_l-10452644-images-thumbs&n=13') center/cover;
             border-radius: 20px;
-            padding: 60px 20px;
+            padding: 40px 20px;
             margin: 60px 0;
         }
 
@@ -86,7 +91,7 @@
         .relevance-card {
             background: rgba(255,255,255,0.95);
             border-radius: 20px;
-            padding: 40px;
+            padding: 30px;
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
             transition: 0.3s;
         }
@@ -122,7 +127,7 @@
     <!-- Хедер -->
     <section class="hero">
         <h1>Цифровой рубль 2025</h1>
-        <p>Новая реальность финансовых операций</p>
+        <p>Новая эра финансовых операций</p>
         <div class="cta-buttons">
             <a href="#history" class="cta-button">История</a>
             <a href="#relevance" class="cta-button">Актуальность</a>
@@ -130,57 +135,37 @@
         </div>
     </section>
 
-    <!-- История -->
+    <!-- Сокращенная история -->
     <section id="history" class="history-section">
-        <h2 style="color: var(--secondary); text-align: center;">История цифровых денег</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Краткая история CBDC</h2>
         
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Деньги древности">
+                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Bitcoin">
             </div>
             <div>
-                <h3>3000 г. до н.э.</h3>
-                <p>Первые металлические монеты в Месопотамии</p>
+                <h3>2009</h3>
+                <p>Bitcoin — первый шаг к цифровым валютам</p>
             </div>
         </div>
         
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Бумажные деньги">
+                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Китай">
             </div>
             <div>
-                <h3>618 г. н.э.</h3>
-                <p>Первые бумажные банкноты династии Тан</p>
-            </div>
-        </div>
-        
-        <div class="history-card">
-            <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Биткоин">
-            </div>
-            <div>
-                <h3>2009 г.</h3>
-                <p>Появление Bitcoin - отправная точка CBDC</p>
-            </div>
-        </div>
-        
-        <div class="history-card">
-            <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Цифровой юань">
-            </div>
-            <div>
-                <h3>2014 г.</h3>
+                <h3>2014</h3>
                 <p>Китай запускает цифровой юань</p>
             </div>
         </div>
         
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="ЦБ РФ">
+                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Россия">
             </div>
             <div>
-                <h3>2017 г.</h3>
-                <p>Начало исследований цифрового рубля</p>
+                <h3>2017</h3>
+                <p>ЦБ РФ начинает исследования CBDC</p>
             </div>
         </div>
     </section>
