@@ -84,7 +84,6 @@
         <h1>Цифровой рубль 2025</h1>
         <p>От биткоина до национальной цифровой валюты</p>
         
-        <!-- Новое определение -->
         <div class="definition-box" style="background: rgba(255,255,255,0.9); margin: 20px auto; max-width: 800px;">
             <h3 style="color: var(--secondary);">Что такое цифровая валюта?</h3>
             <p>Это электронные деньги от Центробанка:</p>
@@ -92,7 +91,6 @@
                 <li>Равны наличным по закону</li>
                 <li>Хранятся в мобильном приложении</li>
                 <li>Защищены криптографией</li>
-                <li>Работают без интернета</li>
             </ul>
         </div>
         
@@ -106,7 +104,6 @@
     <section id="history" class="history-section">
         <h2 style="color: var(--secondary); text-align: center;">История криптовалюты</h2>
         
-        <!-- Существующие карточки -->
         <div class="history-card">
             <div class="history-icon">
                 <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Bitcoin">
@@ -137,7 +134,6 @@
             </div>
         </div>
         
-        <!-- Новые карточки истории -->
         <div class="history-card">
             <div class="history-icon">
                 <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="DeFi">
@@ -162,7 +158,6 @@
     <section id="relevance" class="relevance-section">
         <h2 style="color: var(--secondary); text-align: center;">Зачем нужен цифровой рубль?</h2>
         <div class="relevance-grid">
-            <!-- Существующие карточки -->
             <div class="relevance-card">
                 <h3>Безопасность</h3>
                 <p>Защита от подделок с помощью блокчейна</p>
@@ -175,12 +170,6 @@
                 <h3>Контроль</h3>
                 <p>Центробанк регулирует оборот средств</p>
             </div>
-            <div class="relevance-card">
-                <h3>Доступность</h3>
-                <p>Работа без интернета 72 часа</p>
-            </div>
-            
-            <!-- Новые карточки актуальности -->
             <div class="relevance-card">
                 <h3>Инновации</h3>
                 <p>Возможность смарт-контрактов</p>
