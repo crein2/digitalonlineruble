@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: глубокая история и потребности</title>
-    <meta name="description" content="Полная история цифровых валют от древности до наших дней. Ключевые причины необходимости цифрового рубля в 2025 году.">
+    <title>Цифровой рубль 2025: преимущества и история</title>
+    <meta name="description" content="Чистый дизайн сайта о цифровом рубле: преимущества, история развития, интеграция с госуслугами.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -11,7 +11,7 @@
             --secondary: #4a148c;
             --accent: #ff6d00;
             --surface: #ffffff;
-            --background: url('https://avatars.mds.yandex.net/i?id=772ad1980d57c8d4bdf022e00242756593afad1b-10231558-images-thumbs&n=13') center/cover fixed;
+            --background: #ffffff; /* Белый фон */
         }
 
         body {
@@ -23,33 +23,33 @@
             line-height: 1.7;
         }
 
-        /* Хедер */
+        /* Хедер без фона */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                        url('https://avatars.mds.yandex.net/i?id=d8abf913df627bbaaef0c4fd6b44ec46_l-3979407-images-thumbs&n=13') center/cover;
-            color: white;
-            padding: 150px 20px;
+            color: var(--primary);
+            padding: 100px 20px;
             text-align: center;
+            background: none;
+            border-bottom: 2px solid var(--primary);
         }
 
         .cta-button {
-            padding: 18px 45px;
-            border-radius: 50px;
+            padding: 15px 35px;
+            border-radius: 40px;
             background: var(--primary);
             color: white;
             text-decoration: none;
-            font-weight: 700;
-            margin: 15px;
+            font-weight: 600;
+            margin: 10px;
             display: inline-block;
             transition: 0.3s;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
-        /* Расширенная история */
+        /* История */
         .history-section {
             background: var(--surface);
             border-radius: 20px;
-            padding: 60px 20px;
+            padding: 40px 20px;
             margin: 40px 0;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
@@ -57,28 +57,28 @@
         .history-card {
             display: flex;
             gap: 30px;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             align-items: center;
         }
 
         .history-icon {
-            flex: 0 0 80px;
+            flex: 0 0 60px;
         }
 
         .history-icon img {
-            width: 60px;
-            height: 60px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
-            border: 3px solid var(--primary);
+            border: 2px solid var(--primary);
         }
 
-        /* Расширенная актуальность */
+        /* Актуальность */
         .relevance-section {
-            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
-                        url('https://avatars.mds.yandex.net/i?id=a89830aadfe8aa74d11e675bfc2b08f8_l-10452644-images-thumbs&n=13') center/cover;
+            background: var(--surface);
             border-radius: 20px;
-            padding: 60px 20px;
-            margin: 60px 0;
+            padding: 40px 20px;
+            margin: 40px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
         .relevance-grid {
@@ -88,23 +88,21 @@
         }
 
         .relevance-card {
-            background: rgba(255,255,255,0.95);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid #eee;
             transition: 0.3s;
         }
 
         .relevance-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
         }
-
-        /* Удален футер с картинкой */
     </style>
 </head>
 <body>
-    <!-- Хедер -->
+    <!-- Хедер без фона -->
     <section class="hero">
         <h1>Цифровой рубль 2025</h1>
         <p>Эволюция денег: от клинописи до цифровой эпохи</p>
@@ -115,7 +113,7 @@
         </div>
     </section>
 
-    <!-- Расширенная история -->
+    <!-- История -->
     <section id="history" class="history-section">
         <h2 style="color: var(--secondary); text-align: center;">История цифровых денег</h2>
         
@@ -180,7 +178,7 @@
         </div>
     </section>
 
-    <!-- Расширенная актуальность -->
+    <!-- Актуальность -->
     <section id="relevance" class="relevance-section">
         <h2 style="color: var(--secondary); text-align: center;">Зачем нужен цифровой рубль?</h2>
         
