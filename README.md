@@ -1,18 +1,10 @@
 <html lang="ru">
 <head>
-    <!-- SEO-метатеги -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: от идеи до реализации</title>
-    <meta name="description" content="Полная история создания цифрового рубля: от первых концепций до массового внедрения в 2025 году. Технологии блокчейн, IoT-интеграция, международные платежи. Официальная информация ЦБ РФ.">
-    <meta name="keywords" content="цифровой рубль, история создания, ЦБ РФ, блокчейн, IoT, 2025, законодательство, международные платежи">
-    
-    <!-- Социальные метатеги -->
-    <meta property="og:title" content="Цифровой рубль 2025: революция платежей">
-    <meta property="og:description" content="Узнайте, как цифровой рубль эволюционировал от идеи 2017 года до государственной валюты будущего">
-    <meta property="og:image" content="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13">
-    <meta property="og:url" content="https://ваш-сайт.com/digital-ruble">
-
+    <title>Цифровой рубль 2025: технологии будущего</title>
+    <meta name="description" content="Цифровой рубль в 2025 году: эволюция платежной системы, интеграция с IoT, смарт-контракты. Официальная информация ЦБ РФ.">
+    <meta name="keywords" content="цифровой рубль, ЦБ РФ, блокчейн, IoT, смарт-контракты, 2025, цифровая валюта">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -32,10 +24,10 @@
             line-height: 1.7;
         }
 
-        /* Хедер с анимированным изображением */
+        /* Хедер с новым изображением */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                        url('https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13') center/cover;
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                        url('https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13') center/cover;
             color: white;
             padding: 150px 20px;
             text-align: center;
@@ -43,17 +35,11 @@
             animation: pulse 2s infinite;
         }
 
-        @keyframes pulse {
-            0% { background-opacity: 0.4; }
-            50% { background-opacity: 0.6; }
-            100% { background-opacity: 0.4; }
-        }
-
         .hero-logo {
             position: absolute;
             top: 30px;
             right: 30px;
-            width: 200px;
+            width: 220px;
             height: auto;
         }
 
@@ -109,7 +95,7 @@
             50% { transform: translateY(-15px); }
         }
 
-        /* Секция технологий */
+        /* Технологии */
         .tech-section {
             padding: 60px 20px;
         }
@@ -189,7 +175,7 @@
         }
 
         .footer-logo {
-            width: 220px;
+            width: 240px;
             margin-bottom: 25px;
         }
 
@@ -207,80 +193,79 @@
     </style>
 </head>
 <body>
-    <!-- Хедер -->
+    <!-- Хедер с новым изображением -->
     <section class="hero">
-        <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" 
+        <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" 
              alt="Цифровой рубль 2025"
              class="hero-logo">
         <h1>Цифровой рубль 2025</h1>
-        <p>Безопасность, инновации, государственные гарантии</p>
+        <p>Безопасные платежи, инновации, государственные гарантии</p>
         <div class="cta-buttons">
-            <a href="#history" class="cta-button">История создания</a>
+            <a href="#history" class="cta-button">История проекта</a>
             <a href="https://www.cbr.ru/" target="_blank" class="cta-button" style="background: var(--accent);">ЦБ РФ</a>
         </div>
     </section>
 
     <!-- История создания -->
     <section id="history" class="history-section">
-        <h2 style="color: var(--secondary); text-align: center;">История цифрового рубля</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Эволюция цифрового рубля</h2>
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" alt="Глобальный контекст">
+                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Глобальный тренд">
             </div>
             <div>
-                <h3>Глобальный тренд</h3>
-                <p>Идея цифровых валют появилась в 2008 году с Bitcoin. К 2020 году 86% центральных банков мира исследовали CBDC (цифровые валюты центральных банков).</p>
+                <h3>Всемирный опыт</h3>
+                <p>К 2025 году 93% стран имеют национальные CBDC. Россия адаптирует лучшие практики с учетом локальных особенностей.</p>
             </div>
         </div>
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" alt="Российская инициатива">
+                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Российская разработка">
             </div>
             <div>
-                <h3>Российский путь</h3>
-                <p>ЦБ РФ начал исследования в 2017 году. Первый прототип представлен в 2022 году на основе гибридного блокчейна.</p>
+                <h3>Российская разработка</h3>
+                <p>Создание прототипа начато в 2022 году. К 2025 году система прошла 3 этапа тестирования с участием 50+ банков.</p>
             </div>
         </div>
         <div class="history-card">
             <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" alt="Законодательство">
+                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="Законодательство">
             </div>
             <div>
-                <h3>Правовая база</h3>
-                <p>Федеральный закон №259-ФЗ от 24.07.2023 установил статус цифрового рубля как третьей формы национальной валюты.</p>
+                <h3>Юридическая база</h3>
+                <p>ФЗ №259-ФЗ от 24.07.2023 устанавливает равные права цифрового рубля с наличными и безналичными средствами.</p>
             </div>
         </div>
     </section>
 
     <!-- Технологии -->
     <section class="tech-section">
-        <h2 style="color: var(--secondary); text-align: center;">Технологическая основа</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Технологии будущего</h2>
         <div class="tech-grid">
             <div class="tech-card">
-                <h3>Блокчейн</h3>
-                <p>Гибридная система:</p>
+                <h3>Блокчейн 3.0</h3>
+                <p>Гибридная сеть с:</p>
                 <ul>
-                    <li>Криптографическая защита</li>
-                    <li>Смарт-контракты</li>
-                    <li>Узлы ЦБ РФ и банков</li>
+                    <li>Квантовой защитой</li>
+                    <li>Самовосстанавливающимися узлами</li>
+                    <li>Энергоэффективностью</li>
                 </ul>
             </div>
             <div class="tech-card">
                 <h3>IoT-интеграция</h3>
-                <p>Возможности:</p>
+                <p>Автоматические платежи через:</p>
                 <ul>
-                    <li>Оплата через умные устройства</li>
-                    <li>Автоматизация ЖКХ</li>
-                    <li>Сенсорные платежи</li>
+                    <li>Умные счетчики ЖКХ</li>
+                    <li>Автомобильные сенсоры</li>
+                    <li>Городские системы</li>
                 </ul>
             </div>
             <div class="tech-card">
                 <h3>Международные расчеты</h3>
-                <p>Новые функции:</p>
-                <ul>
-                    <li>Поддержка 15 валют</li>
-                    <li>Интеграция с SWIFT</li>
-                    <li>Кросс-граничные платежи</li>
+                <p>Поддержка:</p>
+                    <li>15 валют через SWIFT</li>
+                    <li>Кросс-граничные переводы</li>
+                    <li>Торговля цифровыми активами</li>
                 </ul>
             </div>
         </div>
@@ -288,26 +273,26 @@
 
     <!-- Дорожная карта 2025 -->
     <section class="timeline">
-        <h2 style="color: var(--secondary); text-align: center;">Планы на 2025 год</h2>
+        <h2 style="color: var(--secondary); text-align: center;">План 2025 года</h2>
         <div class="timeline-item">
             <div class="timeline-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" alt="2025">
+                <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" alt="2025">
             </div>
             <div>
-                <h3>Ключевые цели</h3>
+                <h3>Стратегические цели</h3>
                 <ul>
-                    <li>50 млн активных пользователей</li>
-                    <li>Интеграция с госуслугами</li>
-                    <li>Офлайн-платежи до 72 часов</li>
-                    <li>Снижение комиссий до 0.05%</li>
+                    <li>50 млн пользователей</li>
+                    <li>Интеграция с 200+ госуслугами</li>
+                    <li>Офлайн-режим до 72 часов</li>
+                    <li>Комиссии от 0.03%</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- Сравнение с 2024 -->
+    <!-- Сравнение -->
     <section class="compare-section">
-        <h2 style="text-align: center; color: var(--secondary);">Эволюция системы</h2>
+        <h2 style="text-align: center; color: var(--secondary);">Сравнение поколений</h2>
         <div class="compare-container">
             <table class="compare-table">
                 <tr>
@@ -322,21 +307,21 @@
                 </tr>
                 <tr>
                     <td>IoT-устройства</td>
-                    <td>10 млн подключений</td>
-                    <td>500 тыс. устройств</td>
+                    <td>20 млн подключений</td>
+                    <td>1 млн устройств</td>
                 </tr>
                 <tr>
                     <td>Смарт-контракты</td>
-                    <td>Для всех предприятий</td>
-                    <td>Только пилотные проекты</td>
+                    <td>Для всех секторов экономики</td>
+                    <td>Только для финтеха</td>
                 </tr>
             </table>
         </div>
     </section>
 
-    <!-- Футер -->
+    <!-- Футер с новым изображением -->
     <footer class="footer">
-        <img src="https://avatars.mds.yandex.net/i?id=2a000001956e4cf953b867821551963684db-989033-fast-images&n=13" 
+        <img src="https://avatars.mds.yandex.net/i?id=2585af27b413c5cc46352da6b565ed8b_l-5086925-images-thumbs&n=13" 
              alt="Цифровой рубль 2025"
              class="footer-logo">
         <p>© 2025 Цифровая экономика. Все права защищены</p>
