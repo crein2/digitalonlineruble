@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: перспективы</title>
-    <meta name="description" content="Школьный проект о цифровом рубле: теория, история, опрос и практическая значимость.">
+    <title>Цифровой рубль 2025: школьный проект</title>
+    <meta name="description" content="Исследование цифрового рубля: что это, история, планы ЦБ РФ и мнение учеников.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -22,25 +21,23 @@
             line-height: 1.7;
         }
 
+        /* Хедер */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                        url('https://avatars.mds.yandex.net/i?id=d8abf913df627bbaaef0c4fd6b44ec46_l-3979407-images-thumbs&n=13') center/cover;
+                        url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/CBRF_Logo.svg/1200px-CBRF_Logo.svg.png') center/cover;
             color: white;
             padding: 150px 20px;
             text-align: center;
         }
 
-        .content-section {
-            padding: 60px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
+        /* Карточки */
         .card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 40px;
             padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         .card {
@@ -56,6 +53,7 @@
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
         }
 
+        /* Источники */
         .sources {
             background: #f5f5f5;
             padding: 40px 20px;
@@ -83,80 +81,61 @@
         <p>МОУ "Средняя школа №99" • Ярославль</p>
     </section>
 
-    <!-- Введение из документа -->
-    <section class="content-section">
-        <div class="card-grid">
-            <div class="card">
-                <h2 style="color: var(--secondary);">Введение</h2>
-                <p>Цифровая валюта может изменить не только финансовую систему, но и повседневную жизнь. В эпоху технологий, когда большинство операций проходит через интернет, цифровой рубль открывает новые возможности для удобства, безопасности и скорости расчетов.</p>
-                <p>Актуальность: снижение зависимости от иностранных валют и поиск альтернатив традиционным системам.</p>
-            </div>
+    <!-- Определение -->
+    <section class="card-grid">
+        <div class="card">
+            <h2 style="color: var(--secondary);">Что такое цифровой рубль? <button class="citation-flag" data-index="1"></h2>
+            <p>Это третья форма денег:</p>
+            <ul>
+                <li>Юридически равен наличным</li>
+                <li>Хранится в мобильном приложении</li>
+                <li>Контролируется Центробанком</li>
+                <li>Работает на блокчейне <button class="citation-flag" data-index="2"></li>
+            </ul>
         </div>
     </section>
 
-    <!-- Теоретическая часть -->
-    <section class="content-section">
-        <h2 style="color: var(--secondary); text-align: center;">Теоретическая часть</h2>
-        <div class="card-grid">
-            <div class="card">
-                <h3>История цифровых валют</h3>
-                <ul>
-                    <li>1983: Дэвид Шумейкер предложил электронные деньги <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></li>
-                    <li>2009: Запуск Bitcoin <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[2]</a></li>
-                    <li>2020: Закон о ЦФА в РФ <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[3]</a></li>
-                </ul>
-            </div>
-            
-            <div class="card">
-                <h3>Смарт-контракты</h3>
-                <p>Автоматически исполняемые контракты без посредников <a href="https://forklog.com" class="source-link">[4]</a></p>
-            </div>
+    <!-- История -->
+    <section class="card-grid">
+        <div class="card">
+            <h2 style="color: var(--secondary);">История цифровых валют</h2>
+            <ul>
+                <li>1983: Дэвид Шумейкер описал цифровые деньги <button class="citation-flag" data-index="3"></li>
+                <li>2009: Сатоши Накамото создал Bitcoin <button class="citation-flag" data-index="4"></li>
+                <li>2017: ЦБ РФ начал исследования <button class="citation-flag" data-index="5"></li>
+                <li>2023: Закон о цифровых активах <button class="citation-flag" data-index="6"></li>
+            </ul>
         </div>
     </section>
 
-    <!-- Методы исследования -->
-    <section class="content-section">
-        <div class="card-grid">
-            <div class="card">
-                <h2 style="color: var(--secondary);">Методы исследования</h2>
-                <ul>
-                    <li>Анализ 15+ интернет-источников</li>
-                    <li>Анкетирование 25 учеников</li>
-                    <li>Изучение законодательства</li>
-                </ul>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">[Наша анкета]</a>
-            </div>
+    <!-- Планы ЦБ -->
+    <section class="card-grid">
+        <div class="card">
+            <h2 style="color: var(--secondary);">Планы на 2025 год <button class="citation-flag" data-index="7"></h2>
+            <ol>
+                <li>Интеграция с Госуслугами</li>
+                <li>Поддержка 20+ российских банков</li>
+                <li>Офлайн-режим до 72 часов</li>
+            </ol>
         </div>
     </section>
 
-    <!-- Результаты опроса -->
-    <section class="content-section">
-        <div class="card-grid">
-            <div class="card">
-                <h2 style="color: var(--secondary);">Результаты опроса</h2>
-                <p>25 участников:</p>
-                <ul>
-                    <li>Мужчины: 15 (60%)</li>
-                    <li>Женщины: 10 (40%)</li>
-                    <li>68% верят в успех цифрового рубля</li>
-                    <li>72% считают его безопасным</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Практическая значимость -->
-    <section class="content-section">
-        <div class="card-grid">
-            <div class="card">
-                <h2 style="color: var(--secondary);">Практическая значимость</h2>
-                <p>Сайт можно использовать для:</p>
-                <ul>
-                    <li>Обучения финансовой грамотности в школах</li>
-                    <li>Лекций в университетах</li>
-                    <li>Популяризации новых технологий</li>
-                </ul>
-            </div>
+    <!-- Актуальность -->
+    <section class="card-grid">
+        <div class="card">
+            <h2 style="color: var(--secondary);">Почему это важно?</h2>
+            <p>По нашему опросу 25 человек:</p>
+            <ul>
+                <li>68% верят в успех цифрового рубля</li>
+                <li>72% считают его безопасным <button class="citation-flag" data-index="8"></li>
+                <li>60% готовы использовать</li>
+            </ul>
+            <p>Цели:</p>
+            <ul>
+                <li>Снижение зависимости от доллара</li>
+                <li>Борьба с теневой экономикой</li>
+                <li>Упрощение международных переводов <button class="citation-flag" data-index="9"></li>
+            </ul>
         </div>
     </section>
 
@@ -164,17 +143,21 @@
     <section class="sources">
         <h2>Источники:</h2>
         <p>
-            [1] <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures for Digital Cash</a><br>
-            [2] <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a><br>
-            [3] <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">Закон о ЦФА</a><br>
-            [4] <a href="https://forklog.com" class="source-link">ForkLog</a><br>
-            [5] <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета</a>
+            [1] <a href="https://www.cbr.ru/digital_ruble/" class="source-link">Официальный сайт ЦБ РФ</a><br>
+            [2] <a href="https://forklog.com" class="source-link">ForkLog</a><br>
+            [3] <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures</a><br>
+            [4] <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a><br>
+            [5] <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">Закон о ЦФА</a><br>
+            [6] <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">Пилот ЦБ РФ</a><br>
+            [7] <a href="https://www.gosuslugi.ru" class="source-link">Госуслуги</a><br>
+            [8] <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Наш опрос</a><br>
+            [9] <a href="https://www.vedomosti.ru" class="source-link">Ведомости</a>
         </p>
     </section>
 
     <footer class="footer">
         <p>МОУ "Средняя школа №99" • Ярославль 2025</p>
-        <p>Руководитель: Белов В.Н. • <a href="https://www.cbr.ru/" class="source-link">ЦБ РФ</a></p>
+        <p>Руководитель: Белов В.Н. • Учитель обществознания</p>
     </footer>
 </body>
 </html>
