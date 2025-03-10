@@ -146,7 +146,7 @@
                     <li>Удобство для молодежи</li>
                     <li>Поддержка инноваций</li>
                 </ul>
-                <a href="https://forklog.com/cifrovoj-rubl-eto-vazhno/" class="source-link">[Мнение экспертов]</a>
+                <a href="https://www.sberbank.ru/ru/person/blog/cifrovoy-rubl" class="source-link">[Мнение экспертов]</a>
             </div>
         </div>
     </section>
