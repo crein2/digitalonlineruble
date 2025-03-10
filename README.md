@@ -118,10 +118,10 @@
             </div>
             <div class="card">
                 <h3>2020: Закон о ЦФА</h3>
-                <p>Россия начала регулирование <a href="https://www.consultant.ru/document/cons_doc_LAW_358753/" class="source-link">[3]</a></p>
+                <p>Россия ввела первый закон о регулирование цифровой валюты <a href="https://www.consultant.ru/document/cons_doc_LAW_358753/" class="source-link">[3]</a></p>
             </div>
             <div class="card">
-                <h3>2020: Первые мысли о цифровом рубле</h3>
+                <h3>Октябрь 2020: Первые мысли о цифровом рубле</h3>
                 <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[4]</a></p>
             </div>
         </div>
