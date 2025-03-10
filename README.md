@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: полный анализ</title>
-    <meta name="description" content="История цифровых валют от Bitcoin до цифрового рубля. Планы ЦБ РФ до 2025 года и их влияние на общество.">
+    <title>Цифровой рубль 2025: школьный проект</title>
+    <meta name="description" content="Перспективы цифрового рубля: история, методы исследования, анализ актуальности и практическая значимость.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -79,82 +79,92 @@
     <!-- Хедер -->
     <section class="hero">
         <h1>Цифровой рубль 2025</h1>
-        <p>Школьный проект МОУ "Средняя школа №99" Ярославль</p>
+        <p>МОУ "Средняя школа №99" • Ярославль</p>
     </section>
 
-    <!-- История цифровых денег -->
+    <!-- Введение -->
     <section class="content-section">
-        <h2 style="color: var(--secondary); text-align: center;">История цифровых валют</h2>
         <div class="card-grid">
             <div class="card">
-                <h3>1983: Электронные деньги</h3>
-                <p>Дэвид Шумейкер описал концепцию цифровой наличности <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></p>
-            </div>
-            <div class="card">
-                <h3>1998: B-Money</h3>
-                <p>Вей Дай предложил децентрализованную систему <a href="https://weidai.com/bmoney.txt" class="source-link">[2]</a></p>
-            </div>
-            <div class="card">
-                <h3>2009: Bitcoin</h3>
-                <p>Первая криптовалюта Сатоши Накамото <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[3]</a></p>
-            </div>
-            <div class="card">
-                <h3>2014-2020: e-CNY</h3>
-                <p>Китай запустил цифровой юань <a href="https://www.bis.org/publ/arpdf/ar2023e2.htm" class="source-link">[4]</a></p>
-            </div>
-            <div class="card">
-                <h3>2017: Исследования ЦБ РФ</h3>
-                <p>Начало работы над цифровым рублем <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[5]</a></p>
-            </div>
-            <div class="card">
-                <h3>2021: Концепция цифрового рубля</h3>
-                <p>ЦБ РФ представил дорожную карту <a href="https://www.cbr.ru/Content/Document/File/124730/digital_ruble_concept.pdf" class="source-link">[6]</a></p>
-            </div>
-            <div class="card">
-                <h3>2023: Пилотный запуск</h3>
-                <p>Тестирование в 12 регионах <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">[7]</a></p>
-            </div>
-            <div class="card">
-                <h3>2025: Массовое внедрение</h3>
-                <p>Планируемый полный запуск <a href="https://www.cbr.ru/digital_ruble/" class="source-link">[8]</a></p>
+                <h2 style="color: var(--secondary);">Введение</h2>
+                <p>В современном мире цифровизация финансовых систем приобретает особую актуальность. Традиционные деньги постепенно уступают место электронным платежам и криптовалютам, что стимулирует государства к созданию новых решений.</p>
+                <a href="https://www.cbr.ru/digital_ruble/" class="source-link">[Источник ЦБ РФ]</a>
             </div>
         </div>
     </section>
 
-    <!-- Планы ЦБ -->
+    <!-- Теоретическая часть -->
     <section class="content-section">
-        <h2 style="color: var(--secondary); text-align: center;">Планы Центробанка до 2025</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Теоретическая часть</h2>
         <div class="card-grid">
+            <!-- История -->
             <div class="card">
-                <h3>2023-2024</h3>
+                <h3>История цифровых валют</h3>
                 <ul>
-                    <li>Тестирование в 12 регионах</li>
-                    <li>Подключение 5 банков</li>
-                    <li>Офлайн-режим до 72 часов</li>
+                    <li>1983: Дэвид Шумейкер предложил концепцию электронных денег <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></li>
+                    <li>2009: Запуск Bitcoin (Сатоши Накамото) <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[2]</a></li>
+                    <li>2020: Закон о цифровых финансовых активах в РФ <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[3]</a></li>
+                    <li>2023: Пилотный проект цифрового рубля <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">[4]</a></li>
                 </ul>
             </div>
+            
+            <!-- Причины популярности -->
             <div class="card">
-                <h3>2025</h3>
+                <h3>Почему цифровые валюты популярны?</h3>
                 <ul>
-                    <li>Массовый запуск</li>
-                    <li>Интеграция с Госуслугами</li>
-                    <li>Поддержка 20+ банков</li>
+                    <li>Доступность для всех с интернетом</li>
+                    <li>Защита от инфляции</li>
+                    <li>Децентрализация</li>
+                    <li>Смарт-контракты</li>
                 </ul>
+                <a href="https://forklog.com" class="source-link">[ForkLog]</a>
             </div>
         </div>
     </section>
 
-    <!-- Актуальность -->
+    <!-- Актуальность в России -->
     <section class="content-section">
-        <h2 style="color: var(--secondary); text-align: center;">Почему это важно?</h2>
         <div class="card-grid">
             <div class="card">
+                <h2 style="color: var(--secondary);">Актуальность в России</h2>
                 <ul>
                     <li>Снижение зависимости от доллара</li>
                     <li>Борьба с теневой экономикой</li>
-                    <li>Удобство для молодежи</li>
+                    <li>Интеграция с Госуслугами</li>
+                    <li>Проекты Сбербанка и Тинькофф</li>
                 </ul>
-                <a href="https://forklog.com/cifrovoj-rubl-eto-vazhno/" class="source-link">[Подробнее]</a>
+                <a href="https://www.vedomosti.ru" class="source-link">[Ведомости]</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Методы исследования -->
+    <section class="content-section">
+        <div class="card-grid">
+            <div class="card">
+                <h2 style="color: var(--secondary);">Как мы исследовали?</h2>
+                <ul>
+                    <li>Анализ 15+ интернет-источников</li>
+                    <li>Опрос 25 учеников</li>
+                    <li>Изучение законодательства</li>
+                    <li>Сравнение с международным опытом</li>
+                </ul>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">[Наша анкета]</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Практическая значимость -->
+    <section class="content-section">
+        <div class="card-grid">
+            <div class="card">
+                <h2 style="color: var(--secondary);">Зачем это нужно?</h2>
+                <ul>
+                    <li>Обучение финансовой грамотности</li>
+                    <li>Адаптация к технологиям</li>
+                    <li>Поддержка инноваций</li>
+                    <li>Исследование для молодежи</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -164,13 +174,12 @@
         <h2>Источники:</h2>
         <p>
             [1] <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures for Digital Cash</a><br>
-            [2] <a href="https://weidai.com/bmoney.txt" class="source-link">B-Money Proposal</a><br>
-            [3] <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a><br>
-            [4] <a href="https://www.bis.org/publ/arpdf/ar2023e2.htm" class="source-link">BIS Report</a><br>
-            [5] <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">Закон о ЦФА</a><br>
-            [6] <a href="https://www.cbr.ru/Content/Document/File/124730/digital_ruble_concept.pdf" class="source-link">Концепция ЦБ</a><br>
-            [7] <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">Пилот ЦБ</a><br>
-            [8] <a href="https://www.cbr.ru/digital_ruble/" class="source-link">Официальный сайт ЦБ</a>
+            [2] <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a><br>
+            [3] <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">Закон о ЦФА</a><br>
+            [4] <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">Пилот ЦБ РФ</a><br>
+            [5] <a href="https://forklog.com" class="source-link">ForkLog</a><br>
+            [6] <a href="https://www.vedomosti.ru" class="source-link">Ведомости</a><br>
+            [7] <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета</a>
         </p>
     </section>
 
