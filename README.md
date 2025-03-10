@@ -187,11 +187,11 @@
         <h2>Источники:</h2>
         <div class="card">
             <p style="text-align: left;">
-                <a href="https://www.cbr.ru/digital_ruble/" class="source-link">ЦБ РФ</a> • 
-                <a href="https://forklog.com" class="source-link">ForkLog</a> • 
-                <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures</a> • 
-                <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a> • 
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета</a>
+                <a href="https://www.cbr.ru/digital_ruble/" class="source-link">ЦБ РФ</a> ,
+                <a href="https://forklog.com" class="source-link">ForkLog</a> , 
+                <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures</a> , 
+                <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a> ,
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета</a> .
             </p>
         </div>
     </section>
