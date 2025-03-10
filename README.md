@@ -189,7 +189,7 @@
                 <a href="https://cbr.ru/faq/dr/" class="source-link">Официальный сайт Центробанка</a> ,
                 <a href="https://www.sberbank.ru/ru/person/blog/cifrovoy-rubl" class="source-link">Сбербанк</a> ,
                  <a href="https://coinpost.finance/p/1666-kak-zarozhdalis-cifrovye-dengi">coinpost.finance</a> , 
-                  <a href="https://www.ixbt.com/live/crypto/kto-sozdal-bitcoin-kto-takoy-satoshi-nakamoto.html"source-link">ixbt.com</a> ,
+                 <a href="https://www.ixbt.com/live/crypto/kto-sozdal-bitcoin-kto-takoy-satoshi-nakamoto.html">ixbt.com</a> ,
                    <a href="https://www.consultant.ru/document/cons_doc_LAW_358753/">http://consultant.ru</a> ,
                     <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">http://buhguru.com</a> ,
                      <a href="https://cbr.ru/Content/Document/File/120075/concept_08042021.pdf" class="source-link">http://buhguru.com</a> ,
