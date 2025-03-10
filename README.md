@@ -182,23 +182,22 @@
             </div>
         </div>
     </section>
-
-    <!-- Источники -->
+  <!-- Источники в одну строку -->
     <section class="sources">
         <h2>Источники:</h2>
-        <p>
-            [1] <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures</a><br>
-            [2] <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a><br>
-            [3] <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">Закон о ЦФА</a><br>
-            [4] <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">Пилот ЦБ</a><br>
-            [5] <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета</a>
-        </p>
+        <div class="card">
+            <p style="text-align: left;">
+                <a href="https://www.cbr.ru/digital_ruble/" class="source-link">ЦБ РФ</a> • 
+                <a href="https://forklog.com" class="source-link">ForkLog</a> • 
+                <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures</a> • 
+                <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a> • 
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета</a>
+            </p>
+        </div>
     </section>
 
     <footer class="footer">
         <p>МОУ "Средняя школа №99" • Ярославль 2025</p>
-        <p>Руководитель: Белов В.Н. • Учитель обществознания</p>
-        <p><a href="https://www.cbr.ru/" class="source-link">Официальный сайт ЦБ РФ</a></p>
     </footer>
 </body>
 </html>
