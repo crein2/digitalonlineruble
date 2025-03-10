@@ -110,19 +110,19 @@
         <div class="card-grid">
             <div class="card">
                 <h3>1983: Концепция</h3>
-                <p>Дэвид Шумейкер описал цифровые деньги <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></p>
+                <p>Дэвид Шумейкер описал цифровые деньги <a href="https://coinpost.finance/p/1666-kak-zarozhdalis-cifrovye-dengi" class="source-link">[1]</a></p>
             </div>
             <div class="card">
                 <h3>2009: Bitcoin</h3>
-                <p>Первая криптовалюта Сатоши Накамото <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[2]</a></p>
+                <p>Первая криптовалюта Сатоши Накамото <a href="https://www.ixbt.com/live/crypto/kto-sozdal-bitcoin-kto-takoy-satoshi-nakamoto.html" class="source-link">[2]</a></p>
             </div>
             <div class="card">
                 <h3>2020: Закон о ЦФА</h3>
-                <p>Россия начала регулирование <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[3]</a></p>
+                <p>Россия начала регулирование <a href="https://www.consultant.ru/document/cons_doc_LAW_358753/" class="source-link">[3]</a></p>
             </div>
             <div class="card">
-                <h3>2023: Пилот</h3>
-                <p>Тестирование в 12 регионах <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">[4]</a></p>
+                <h3>2020: Первые мысли о цифровом рубле</h3>
+                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[4]</a></p>
             </div>
         </div>
     </section>
