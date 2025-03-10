@@ -187,10 +187,8 @@
         <div class="card">
             <p style="text-align: left;">
                 <a href="https://cbr.ru/faq/dr/" class="source-link">Официальный сайт Центробанка</a> ,
-                <a href="https://forklog.com" class="source-link">ForkLog</a> , 
-                <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures</a> , 
-                <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a> ,
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Опрос</a> .
+                <a href="https://www.sberbank.ru/ru/person/blog/cifrovoy-rubl" class="source-link">Сбербанк</a> ,
+                <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses" class="source-link">Опрос</a> .
             </p>
         </div>
     </section>
