@@ -129,8 +129,8 @@
                 <p>ЦБ РФ описал преимущества: мгновенные платежи, снижение комиссий, борьба с теневой экономикой.<a href="https://cbr.ru/Content/Document/File/120075/concept_08042021.pdf" class="source-link">[5]</a></p>
             </div>
             <div class="card">
-            <h3>Октябрь 2020: Первые мысли о цифровом рубле</h3>
-                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[6]</a></p>
+            <h3>2025 г. — Планируется массовый запуск для всех граждан</h3>
+                <p>«Крупнейшие банки к 1 июля 2025 года должны будут обеспечить своим клиентам возможность проводить операции с цифровыми рублями»<a href="https://russian.rt.com/business/article/1367840-cifrovoi-rubl-vnedrenie" class="source-link">[6]</a></p>
             </div>
         </div>
     </section>
