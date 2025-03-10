@@ -112,7 +112,7 @@
             <div class="card">
                 <h2 style="color: var(--secondary);">История цифровых валют</h2>
                 <ul>
-                    <li>1983: Дэвид Шумейкер описал электронные деньги <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></li>
+                    <li>1983: Дэвид Шумейкер описал электронные деньги <a href="https://coinpost.finance/p/1666-kak-zarozhdalis-cifrovye-dengi" class="source-link">[1]</a></li>
                     <li>1998: Вей Дай предложил b-money <a href="https://weidai.com/bmoney.txt" class="source-link">[2]</a></li>
                     <li>2009: Запуск биткойна <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[3]</a></li>
                     <li>2020: Закон о цифровых активах РФ <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[4]</a></li>
