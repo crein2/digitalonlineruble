@@ -125,12 +125,12 @@
                 <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[4]</a></p>
             </div>
             <div class="card">
-            <h3>Октябрь 2020: Первые мысли о цифровом рубле</h3>
-                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[4]</a></p>
+            <h3>2021:Концепция цифрового рубля</h3>
+                <p> Опубликована Концепция цифрового рубля . ЦБ РФ описал преимущества: мгновенные платежи, снижение комиссий, борьба с теневой экономикой.<a href="https://cbr.ru/Content/Document/File/120075/concept_08042021.pdf" class="source-link">[5]</a></p>
             </div>
             <div class="card">
             <h3>Октябрь 2020: Первые мысли о цифровом рубле</h3>
-                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[4]</a></p>
+                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[6]</a></p>
             </div>
         </div>
     </section>
