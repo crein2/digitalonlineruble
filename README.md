@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: школьный проект</title>
-    <meta name="description" content="Перспективы цифрового рубля: история, методы исследования, анализ актуальности и практическая значимость.">
+    <title>Цифровой рубль 2025: перспективы</title>
+    <meta name="description" content="Школьный проект о цифровом рубле: теория, история, опрос и практическая значимость.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -23,7 +24,7 @@
 
         .hero {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                        url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/CBRF_Logo.svg/1200px-CBRF_Logo.svg.png') center/cover;
+                        url('https://avatars.mds.yandex.net/i?id=d8abf913df627bbaaef0c4fd6b44ec46_l-3979407-images-thumbs&n=13') center/cover;
             color: white;
             padding: 150px 20px;
             text-align: center;
@@ -82,13 +83,13 @@
         <p>МОУ "Средняя школа №99" • Ярославль</p>
     </section>
 
-    <!-- Введение -->
+    <!-- Введение из документа -->
     <section class="content-section">
         <div class="card-grid">
             <div class="card">
                 <h2 style="color: var(--secondary);">Введение</h2>
-                <p>В современном мире цифровизация финансовых систем приобретает особую актуальность. Традиционные деньги постепенно уступают место электронным платежам и криптовалютам, что стимулирует государства к созданию новых решений.</p>
-                <a href="https://www.cbr.ru/digital_ruble/" class="source-link">[Источник ЦБ РФ]</a>
+                <p>Цифровая валюта может изменить не только финансовую систему, но и повседневную жизнь. В эпоху технологий, когда большинство операций проходит через интернет, цифровой рубль открывает новые возможности для удобства, безопасности и скорости расчетов.</p>
+                <p>Актуальность: снижение зависимости от иностранных валют и поиск альтернатив традиционным системам.</p>
             </div>
         </div>
     </section>
@@ -97,43 +98,18 @@
     <section class="content-section">
         <h2 style="color: var(--secondary); text-align: center;">Теоретическая часть</h2>
         <div class="card-grid">
-            <!-- История -->
             <div class="card">
                 <h3>История цифровых валют</h3>
                 <ul>
-                    <li>1983: Дэвид Шумейкер предложил концепцию электронных денег <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></li>
-                    <li>2009: Запуск Bitcoin (Сатоши Накамото) <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[2]</a></li>
-                    <li>2020: Закон о цифровых финансовых активах в РФ <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[3]</a></li>
-                    <li>2023: Пилотный проект цифрового рубля <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">[4]</a></li>
+                    <li>1983: Дэвид Шумейкер предложил электронные деньги <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></li>
+                    <li>2009: Запуск Bitcoin <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[2]</a></li>
+                    <li>2020: Закон о ЦФА в РФ <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[3]</a></li>
                 </ul>
             </div>
             
-            <!-- Причины популярности -->
             <div class="card">
-                <h3>Почему цифровые валюты популярны?</h3>
-                <ul>
-                    <li>Доступность для всех с интернетом</li>
-                    <li>Защита от инфляции</li>
-                    <li>Децентрализация</li>
-                    <li>Смарт-контракты</li>
-                </ul>
-                <a href="https://forklog.com" class="source-link">[ForkLog]</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Актуальность в России -->
-    <section class="content-section">
-        <div class="card-grid">
-            <div class="card">
-                <h2 style="color: var(--secondary);">Актуальность в России</h2>
-                <ul>
-                    <li>Снижение зависимости от доллара</li>
-                    <li>Борьба с теневой экономикой</li>
-                    <li>Интеграция с Госуслугами</li>
-                    <li>Проекты Сбербанка и Тинькофф</li>
-                </ul>
-                <a href="https://www.vedomosti.ru" class="source-link">[Ведомости]</a>
+                <h3>Смарт-контракты</h3>
+                <p>Автоматически исполняемые контракты без посредников <a href="https://forklog.com" class="source-link">[4]</a></p>
             </div>
         </div>
     </section>
@@ -142,14 +118,29 @@
     <section class="content-section">
         <div class="card-grid">
             <div class="card">
-                <h2 style="color: var(--secondary);">Как мы исследовали?</h2>
+                <h2 style="color: var(--secondary);">Методы исследования</h2>
                 <ul>
                     <li>Анализ 15+ интернет-источников</li>
-                    <li>Опрос 25 учеников</li>
+                    <li>Анкетирование 25 учеников</li>
                     <li>Изучение законодательства</li>
-                    <li>Сравнение с международным опытом</li>
                 </ul>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">[Наша анкета]</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Результаты опроса -->
+    <section class="content-section">
+        <div class="card-grid">
+            <div class="card">
+                <h2 style="color: var(--secondary);">Результаты опроса</h2>
+                <p>25 участников:</p>
+                <ul>
+                    <li>Мужчины: 15 (60%)</li>
+                    <li>Женщины: 10 (40%)</li>
+                    <li>68% верят в успех цифрового рубля</li>
+                    <li>72% считают его безопасным</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -158,12 +149,12 @@
     <section class="content-section">
         <div class="card-grid">
             <div class="card">
-                <h2 style="color: var(--secondary);">Зачем это нужно?</h2>
+                <h2 style="color: var(--secondary);">Практическая значимость</h2>
+                <p>Сайт можно использовать для:</p>
                 <ul>
-                    <li>Обучение финансовой грамотности</li>
-                    <li>Адаптация к технологиям</li>
-                    <li>Поддержка инноваций</li>
-                    <li>Исследование для молодежи</li>
+                    <li>Обучения финансовой грамотности в школах</li>
+                    <li>Лекций в университетах</li>
+                    <li>Популяризации новых технологий</li>
                 </ul>
             </div>
         </div>
@@ -176,10 +167,8 @@
             [1] <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures for Digital Cash</a><br>
             [2] <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a><br>
             [3] <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">Закон о ЦФА</a><br>
-            [4] <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">Пилот ЦБ РФ</a><br>
-            [5] <a href="https://forklog.com" class="source-link">ForkLog</a><br>
-            [6] <a href="https://www.vedomosti.ru" class="source-link">Ведомости</a><br>
-            [7] <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета</a>
+            [4] <a href="https://forklog.com" class="source-link">ForkLog</a><br>
+            [5] <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета</a>
         </p>
     </section>
 
