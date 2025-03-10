@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: перспективы и исследования</title>
-    <meta name="description" content="Анализ цифрового рубля: история, преимущества и риски. Основано на исследованиях ЦБ РФ и международных источниках.">
+    <title>Цифровой рубль 2025: школьный проект</title>
+    <meta name="description" content="Исследование цифрового рубля: история, преимущества и риски. Основано на официальных источниках и опросе учащихся.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -24,23 +24,23 @@
         /* Хедер с фоном ЦБ РФ */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                        url('https://avatars.mds.yandex.net/i?id=d8abf913df627bbaaef0c4fd6b44ec46_l-3979407-images-thumbs&n=13') center/cover;
+                        url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/CBRF_Logo.svg/1200px-CBRF_Logo.svg.png') center/cover;
             color: white;
             padding: 150px 20px;
             text-align: center;
         }
 
-        /* Теоретическая часть с изображением блокчейна */
+        /* Теоретическая часть с блокчейн-иллюстрацией */
         .theory-section {
             background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
-                        url('https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13') center/cover;
+                        url('https://images.unsplash.com/photo-1588530571093-6e15320d73e0') center/cover;
             padding: 80px 20px;
         }
 
-        /* План внедрения с изображением технологий */
+        /* План внедрения с технологичным фоном */
         .roadmap-section {
             background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
-                        url('https://avatars.mds.yandex.net/i?id=a89830aadfe8aa74d11e675bfc2b08f8_l-10452644-images-thumbs&n=13') center/cover;
+                        url('https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg') center/cover;
             padding: 80px 20px;
         }
 
@@ -75,16 +75,27 @@
         }
 
         .footer {
-            background: #f5f5f5;
+            background: white;
             color: #2c3e50;
             text-align: center;
-            padding: 20px;
+            padding: 40px 20px;
             border-top: 1px solid #eee;
         }
 
         a.source-link {
             color: var(--primary);
             text-decoration: underline;
+        }
+
+        /* Обработка ошибок изображений */
+        .theory-section, .roadmap-section {
+            background-size: cover;
+            background-position: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -101,10 +112,10 @@
             <div class="card">
                 <h2 style="color: var(--secondary);">История цифровых валют</h2>
                 <ul>
-                    <li>1983: Концепция электронных денег Дэвида Шумейкера <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></li>
-                    <li>1998: Система b-money Вей Дая <a href="https://weidai.com/bmoney.txt" class="source-link">[2]</a></li>
-                    <li>2009: Запуск Bitcoin <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[3]</a></li>
-                    <li>2020: Закон о цифровых активах в РФ <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[4]</a></li>
+                    <li>1983: Дэвид Шумейкер описал электронные деньги <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">[1]</a></li>
+                    <li>1998: Вей Дай предложил b-money <a href="https://weidai.com/bmoney.txt" class="source-link">[2]</a></li>
+                    <li>2009: Запуск биткойна <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">[3]</a></li>
+                    <li>2020: Закон о цифровых активах РФ <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">[4]</a></li>
                 </ul>
             </div>
         </div>
@@ -114,33 +125,12 @@
     <section class="roadmap-section">
         <div class="card-grid">
             <div class="card">
-                <h2 style="color: var(--secondary);">План внедрения 2025</h2>
+                <h2 style="color: var(--secondary);">План 2025 года</h2>
                 <ol>
-                    <li>Тестирование в 12 регионах <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">[5]</a></li>
-                    <li>Интеграция с Госуслугами <a href="https://gosuslugi.ru" class="source-link">[6]</a></li>
-                    <li>Массовый запуск <a href="https://www.cbr.ru/digital_ruble/" class="source-link">[7]</a></li>
+                    <li>Тестирование в 12 регионах <a href="https://www.cbr.ru/digital_ruble/" class="source-link">[5]</a></li>
+                    <li>Интеграция с Госуслугами <a href="https://www.gosuslugi.ru/" class="source-link">[6]</a></li>
+                    <li>Массовый запуск <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">[7]</a></li>
                 </ol>
-            </div>
-        </div>
-    </section>
-
-    <!-- Плюсы и минусы -->
-    <section class="theory-section" style="background: none; padding: 60px 20px;">
-        <div class="card-grid">
-            <div class="card">
-                <h3>Преимущества</h3>
-                <ul>
-                    <li>Снижение комиссий <a href="https://www.rbc.ru/crypto/news/5f0a5e0c9a7947d2a4a3b5d6" class="source-link">[8]</a></li>
-                    <li>Безопасность транзакций <a href="https://forklog.com/cifrovoj-rubl-eto-vazhno/" class="source-link">[9]</a></li>
-                </ul>
-            </div>
-            
-            <div class="card">
-                <h3>Риски</h3>
-                <ul style="color: #ff5252;">
-                    <li>Кибератаки <a href="https://www.kaspersky.ru/blog/digital-ruble-security/22452/" class="source-link">[10]</a></li>
-                    <li>Зависимость от технологий <a href="https://www.vedomosti.ru/technology/articles/2024/01/15/910031-potencial-cifrovogo-rublya" class="source-link">[11]</a></li>
-                </ul>
             </div>
         </div>
     </section>
@@ -156,7 +146,7 @@
                     <li>72% верят в безопасность транзакций</li>
                     <li>60% готовы использовать цифровой рубль</li>
                 </ul>
-                <a href="https://docs.google.com/forms/d/1abcdefghijklmnopqrstuvwxyz/edit" class="source-link">Анкета на Google Forms [12]</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Анкета на Google Forms [8]</a>
             </div>
         </div>
     </section>
@@ -168,15 +158,11 @@
             [1] <a href="https://nakamotoinstitute.org/blind-signatures/" class="source-link">Blind Signatures for Digital Cash</a><br>
             [2] <a href="https://weidai.com/bmoney.txt" class="source-link">B-Money Proposal</a><br>
             [3] <a href="https://bitcoin.org/bitcoin.pdf" class="source-link">Bitcoin Whitepaper</a><br>
-            [4] <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">Закон о ЦФА</a><br>
-            [5] <a href="https://www.cbr.ru/press/pr/?file=29072024_095006dkp2024-07-29T09_50_06.pdf" class="source-link">Пилот ЦБ РФ</a><br>
-            [6] <a href="https://gosuslugi.ru" class="source-link">Госуслуги</a><br>
-            [7] <a href="https://www.cbr.ru/digital_ruble/" class="source-link">Официальный сайт ЦБ РФ</a><br>
-            [8] <a href="https://www.rbc.ru/crypto/news/5f0a5e0c9a7947d2a4a3b5d6" class="source-link">RBC Crypto</a><br>
-            [9] <a href="https://forklog.com/cifrovoj-rubl-eto-vazhno/" class="source-link">ForkLog</a><br>
-            [10] <a href="https://www.kaspersky.ru/blog/digital-ruble-security/22452/" class="source-link">Кaspersky Blog</a><br>
-            [11] <a href="https://www.vedomosti.ru/technology/articles/2024/01/15/910031-potencial-cifrovogo-rublya" class="source-link">Ведомости</a><br>
-            [12] <a href="https://docs.google.com/forms/d/1abcdefghijklmnopqrstuvwxyz/edit" class="source-link">Google Forms</a>
+            [4] <a href="https://www.cbr.ru/digital_ruble/" class="source-link">Официальный сайт ЦБ РФ</a><br>
+            [5] <a href="https://www.gosuslugi.ru/" class="source-link">Госуслуги</a><br>
+            [6] <a href="https://www.cbr.ru/Content/Document/File/124730/zakon_o_tsifrovykh_finansovykh_aktivakh.pdf" class="source-link">Закон о ЦФА</a><br>
+            [7] <a href="https://www.vedomosti.ru/technology/articles/2024/01/15/910031-potencial-cifrovogo-rublya" class="source-link">Ведомости</a><br>
+            [8] <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">Google Forms</a>
         </p>
     </section>
 
