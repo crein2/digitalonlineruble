@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: школьный исследовательский проект</title>
-    <meta name="description" content="Анализ перспектив цифрового рубля в России. История цифровых валют, результаты опроса и план внедрения.">
+    <title>Цифровой рубль 2025: перспективы и исследования</title>
+    <meta name="description" content="Анализ цифрового рубля: история, преимущества, риски и результаты опроса.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -21,27 +21,33 @@
             line-height: 1.7;
         }
 
-        /* Хедер с первым изображением */
+        /* Хедер с фоном из Wikimedia */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                        url('https://avatars.mds.yandex.net/i?id=d8abf913df627bbaaef0c4fd6b44ec46_l-3979407-images-thumbs&n=13') center/cover;
+                        url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/CBRF_Logo.svg/1200px-CBRF_Logo.svg.png') center/cover;
             color: white;
             padding: 150px 20px;
             text-align: center;
         }
 
-        /* Теоретическая часть со вторым изображением */
+        /* Теоретическая часть с изображением блокчейна */
         .theory-section {
             background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
-                        url('https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13') center/cover;
+                        url('https://images.unsplash.com/photo-1588530571093-6e15320d73e0') center/cover;
             padding: 80px 20px;
         }
 
-        /* Практическая часть с третьим изображением */
+        /* Практическая часть с графиком опроса */
         .research-section {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                        url('https://avatars.mds.yandex.net/i?id=a89830aadfe8aa74d11e675bfc2b08f8_l-10452644-images-thumbs&n=13') center/cover;
-            color: white;
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg') center/cover;
+            padding: 80px 20px;
+        }
+
+        /* План внедрения с инфографикой */
+        .roadmap-section {
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg') center/cover;
             padding: 80px 20px;
         }
 
@@ -68,18 +74,17 @@
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
         }
 
-        /* Ссылки на источники */
-        .references {
-            padding: 40px 20px;
-            background: var(--surface);
-        }
-
+        /* Футер с источниками */
         .footer {
-            background: white;
+            background: #f5f5f5;
             color: #2c3e50;
             text-align: center;
             padding: 40px 20px;
-            border-top: 1px solid #eee;
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -97,23 +102,12 @@
             <div class="card">
                 <h2 style="color: var(--secondary);">История цифровых валют</h2>
                 <ul>
-                    <li>1983: Дэвид Шумейкер предложил электронные деньги <button class="citation-flag" data-index="1"></li>
-                    <li>1998: Появление концепции b-money <button class="citation-flag" data-index="2"></li>
-                    <li>2009: Запуск Bitcoin (Сатоши Накамото) <button class="citation-flag" data-index="1"></li>
+                    <li>1983: Дэвид Шумейкер предложил электронные деньги</li>
+                    <li>1998: Появление концепции b-money</li>
+                    <li>2009: Запуск Bitcoin (Сатоши Накамото)</li>
                     <li>2011: Создание Litecoin</li>
                     <li>2015: Ethereum и смарт-контракты</li>
-                    <li>2020: Закон о цифровых активах в РФ <button class="citation-flag" data-index="3"></li>
-                </ul>
-            </div>
-            
-            <div class="card">
-                <h2 style="color: var(--secondary);">Причины популярности</h2>
-                <p>Ключевые факторы <button class="citation-flag" data-index="4">:</p>
-                <ul>
-                    <li>Децентрализация</li>
-                    <li>Безопасность блокчейна</li>
-                    <li>Анонимность</li>
-                    <li>Инвестиционный потенциал</li>
+                    <li>2020: Закон о цифровых активах в РФ</li>
                 </ul>
             </div>
         </div>
@@ -122,13 +116,12 @@
     <!-- Практическая часть -->
     <section class="research-section">
         <div class="card-grid">
-            <div class="card" style="background: rgba(0,0,0,0.7); color: white;">
+            <div class="card">
                 <h2>Результаты опроса</h2>
-                <p>Участники: 25 человек (15 мужчин, 10 женщин)</p>
-                <p>Ключевые выводы:</p>
+                <p>25 участников (15 мужчин, 10 женщин):</p>
                 <ul>
                     <li>68% считают цифровой рубль перспективным</li>
-                    <li>72% верят в повышение безопасности</li>
+                    <li>72% верят в безопасность транзакций</li>
                     <li>60% готовы использовать цифровой рубль</li>
                 </ul>
             </div>
@@ -136,75 +129,58 @@
     </section>
 
     <!-- План внедрения -->
-    <section class="theory-section" style="background: none; padding: 60px 20px;">
+    <section class="roadmap-section">
         <div class="card-grid">
             <div class="card">
-                <h2 style="color: var(--secondary);">План внедрения 2025</h2>
+                <h2 style="color: var(--secondary);">План 2025 года</h2>
                 <ol>
                     <li>Тестирование в 12 регионах</li>
                     <li>Интеграция с Госуслугами</li>
-                    <li>Массовый запуск <button class="citation-flag" data-index="5"></li>
+                    <li>Массовый запуск</li>
                 </ol>
             </div>
         </div>
     </section>
 
-    <!-- Плюсы и минусы -->
+    <!-- Преимущества и риски -->
     <section class="theory-section" style="background: none; padding: 60px 20px;">
         <div class="card-grid">
             <div class="card">
-                <h3>Для граждан</h3>
-                <p><strong>Плюсы:</strong></p>
+                <h3>Преимущества</h3>
                 <ul>
-                    <li>Мгновенные платежи <button class="citation-flag" data-index="6"></li>
-                    <li>Безопасность</li>
-                </ul>
-                <p><strong>Минусы:</strong></p>
-                <ul style="color: #ff5252;">
-                    <li>Цифровая зависимость</li>
-                    <li>Риски утечек <button class="citation-flag" data-index="7"></li>
+                    <li>Снижение комиссий</li>
+                    <li>Быстрые международные переводы</li>
+                    <li>Повышение финансовой безопасности</li>
                 </ul>
             </div>
             
             <div class="card">
-                <h3>Для бизнеса</h3>
-                <p><strong>Плюсы:</strong></p>
-                <ul>
-                    <li>Снижение комиссий</li>
-                    <li>Автоматизация <button class="citation-flag" data-index="8"></li>
-                </ul>
-                <p><strong>Минусы:</strong></p>
+                <h3>Риски</h3>
                 <ul style="color: #ff5252;">
                     <li>Кибератаки</li>
-                    <li>Необходимость адаптации</li>
+                    <li>Зависимость от технологий</li>
+                    <li>Необходимость законодательства</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- Ссылки на источники -->
-    <section class="references">
-        <h2 style="color: var(--secondary); text-align: center;">Источники информации</h2>
-        <div class="card-grid">
-            <div class="card">
-                <h3>Основные источники:</h3>
-                <ul>
-                    <li><a href="https://www.cbr.ru/" target="_blank">Официальный сайт ЦБ РФ <button class="citation-flag" data-index="3"></a></li>
-                    <li><a href="https://docs.google.com" target="_blank">Онлайн-анкетирование <button class="citation-flag" data-index="9"></a></li>
-                    <li><a href="https://sendpulse.com/ru/blog/sozdanie-sajta-s-nulya" target="_blank">Этапы разработки сайтов <button class="citation-flag" data-index="10"></a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
+    <!-- Источники -->
     <footer class="footer">
-        <p>МОУ "Средняя школа №99" • Ярославль 2025</p>
-        <p>Руководитель: Белов В.Н. • Учитель обществознания</p>
+        <h3>Источники информации:</h3>
         <p>
-            <a href="https://www.cbr.ru/" target="_blank" style="color: var(--primary);">
-                Центральный банк Российской Федерации
-            </a>
+            <a href="https://www.cbr.ru/" target="_blank">ЦБ РФ</a> • 
+            <a href="https://ru.wikipedia.org/wiki/Цифровой_рубль" target="_blank">Википедия</a> • 
+            <a href="https://forklog.com/" target="_blank">ForkLog</a> • 
+            <a href="https://www.rbc.ru/crypto/" target="_blank">РБК Крипто</a>
         </p>
+        <p>Изображения:</p>
+        <p>
+            <a href="https://commons.wikimedia.org/wiki/File:CBRF_Logo.svg" target="_blank">Логотип ЦБ РФ</a> • 
+            <a href="https://unsplash.com/photos/3861972" target="_blank">Блокчейн</a> • 
+            <a href="https://www.pexels.com/photo/digital-tablet-with-graph-report-on-table-3861972/" target="_blank">График опроса</a>
+        </p>
+        <p>© 2025 МОУ "Средняя школа №99"</p>
     </footer>
 </body>
 </html>
