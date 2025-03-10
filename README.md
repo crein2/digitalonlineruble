@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Цифровой рубль 2025: полная информация</title>
-    <meta name="description" content="История цифровых валют от Bitcoin до цифрового рубля. План внедрения 2025 года и как это изменит жизнь граждан.">
+    <meta name="description" content="История цифровых валют от Bitcoin до цифрового рубля. План внедрения 2025 года и анализ влияния на граждан.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -21,7 +21,7 @@
             line-height: 1.7;
         }
 
-        /* Хедер с фоновой картинкой */
+        /* Хедер с ПЕРВОЙ картинкой */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
                         url('https://avatars.mds.yandex.net/i?id=d8abf913df627bbaaef0c4fd6b44ec46_l-3979407-images-thumbs&n=13') center/cover;
@@ -30,17 +30,28 @@
             text-align: center;
         }
 
-        /* Секции с контентом */
-        .content-section {
+        /* История со ВТОРОЙ картинкой */
+        .history-section {
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13') center/cover;
             padding: 60px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
         }
 
+        /* План с ТРЕТЬЕЙ картинкой */
+        .roadmap-section {
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('https://avatars.mds.yandex.net/i?id=a89830aadfe8aa74d11e675bfc2b08f8_l-10452644-images-thumbs&n=13') center/cover;
+            padding: 60px 20px;
+        }
+
+        /* Карточки */
         .card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
 
         .card {
@@ -57,86 +68,79 @@
         }
 
         /* Стиль для минусов */
-        .negative-card {
-            border-left: 5px solid #ff5252;
+        .negative {
+            color: #ff5252;
+            margin-top: 15px;
         }
 
-        /* Футер */
+        /* Футер без фона */
         .footer {
-            background: var(--primary);
-            color: white;
+            background: #ffffff;
+            color: #2c3e50;
             text-align: center;
             padding: 40px 20px;
+            border-top: 1px solid #eee;
         }
     </style>
 </head>
 <body>
-    <!-- Хедер -->
+    <!-- Хедер с ПЕРВОЙ картинкой -->
     <section class="hero">
         <h1>Цифровой рубль 2025</h1>
         <p>От криптовалют к государственным деньгам будущего</p>
     </section>
 
-    <!-- История цифровой валюты -->
-    <section id="history" class="content-section">
-        <h2 style="color: var(--secondary);">История цифровых денег</h2>
+    <!-- История со ВТОРОЙ картинкой -->
+    <section class="history-section">
         <div class="card-grid">
             <div class="card">
-                <h3>2009: Биткоин</h3>
-                <p>Первая децентрализованная криптовалюта</p>
-            </div>
-            
-            <div class="card">
-                <h3>2015: Ethereum</h3>
-                <p>Появление смарт-контрактов</p>
-            </div>
-            
-            <div class="card">
-                <h3>2014-2020: Китай</h3>
-                <p>Разработка цифрового юаня</p>
-            </div>
-            
-            <div class="card">
-                <h3>2017: ЦБ РФ</h3>
-                <p>Первые исследования цифрового рубля</p>
-            </div>
-            
-            <div class="card">
-                <h3>2023-2024: Пилот</h3>
-                <p>Тестирование в 12 регионах</p>
-            </div>
-            
-            <div class="card">
-                <h3>2025: Запуск</h3>
-                <p>Массовое внедрение для всех</p>
+                <h2 style="color: var(--secondary);">История цифровых валют</h2>
+                <div class="timeline">
+                    <div class="event">
+                        <h3>2009: Bitcoin</h3>
+                        <p>Первая децентрализованная криптовалюта</p>
+                    </div>
+                    <div class="event">
+                        <h3>2015: Ethereum</h3>
+                        <p>Появление смарт-контрактов</p>
+                    </div>
+                    <div class="event">
+                        <h3>2014-2020: Китай</h3>
+                        <p>Разработка цифрового юаня</p>
+                    </div>
+                    <div class="event">
+                        <h3>2017: ЦБ РФ</h3>
+                        <p>Первые исследования цифрового рубля</p>
+                    </div>
+                    <div class="event">
+                        <h3>2023-2024: Пилот</h3>
+                        <p>Тестирование в 12 регионах</p>
+                    </div>
+                    <div class="event">
+                        <h3>2025: Запуск</h3>
+                        <p>Массовое внедрение для всех</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- План внедрения -->
-    <section id="roadmap" class="content-section">
-        <h2 style="color: var(--secondary);">План 2025 года</h2>
+    <!-- План с ТРЕТЬЕЙ картинкой -->
+    <section class="roadmap-section">
         <div class="card-grid">
             <div class="card">
-                <h3>Этап 1</h3>
-                <p>Интеграция с Госуслугами</p>
-            </div>
-            
-            <div class="card">
-                <h3>Этап 2</h3>
-                <p>Поддержка 20+ банков</p>
-            </div>
-            
-            <div class="card">
-                <h3>Этап 3</h3>
-                <p>Офлайн-режим до 7 дней</p>
+                <h2 style="color: var(--secondary);">План внедрения 2025</h2>
+                <ol>
+                    <li>Интеграция с Госуслугами</li>
+                    <li>Поддержка 20+ банков</li>
+                    <li>Офлайн-режим до 7 дней</li>
+                </ol>
             </div>
         </div>
     </section>
 
     <!-- Плюсы и минусы -->
-    <section id="pros-cons" class="content-section">
-        <h2 style="color: var(--secondary);">Что это значит для вас?</h2>
+    <section class="content-section" style="padding: 60px 20px;">
         <div class="card-grid">
             <div class="card">
                 <h3>Граждане</h3>
@@ -146,10 +150,10 @@
                     <li>Безопасность платежей</li>
                     <li>Контроль расходов</li>
                 </ul>
-                <p><strong>Минусы:</strong></p>
-                <ul class="negative-card">
+                <p class="negative"><strong>Минусы:</strong></p>
+                <ul>
                     <li>Цифровая зависимость</li>
-                    <li>Нужно учиться новому</li>
+                    <li>Необходимость обучения</li>
                 </ul>
             </div>
             
@@ -160,8 +164,8 @@
                     <li>Автоматизация расчетов</li>
                     <li>Снижение комиссий</li>
                 </ul>
-                <p><strong>Минусы:</strong></p>
-                <ul class="negative-card">
+                <p class="negative"><strong>Минусы:</strong></p>
+                <ul>
                     <li>Новые требования</li>
                     <li>Киберриски</li>
                 </ul>
@@ -174,8 +178,8 @@
                     <li>Контроль экономики</li>
                     <li>Сбор налогов</li>
                 </ul>
-                <p><strong>Минусы:</strong></p>
-                <ul class="negative-card">
+                <p class="negative"><strong>Минусы:</strong></p>
+                <ul>
                     <li>Затраты на разработку</li>
                     <li>Кибербезопасность</li>
                 </ul>
@@ -183,10 +187,11 @@
         </div>
     </section>
 
+    <!-- Чистый футер -->
     <footer class="footer">
         <p>© 2025 Цифровая экономика. Все права защищены</p>
         <p>
-            <a href="https://www.cbr.ru/" target="_blank" style="color: white; text-decoration: underline;">
+            <a href="https://www.cbr.ru/" target="_blank" style="color: var(--primary); text-decoration: underline;">
                 Официальный сайт ЦБ РФ
             </a>
         </p>
