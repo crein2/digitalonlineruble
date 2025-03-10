@@ -177,7 +177,7 @@
                     <li>68% верят в успех</li>
                     <li>72% считают безопасным</li>
                 </ul>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ5X1234567890abcdefghij/example" class="source-link">[Наша анкета]</a>
+                <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses" class="source-link">[Наша анкета]</a>
             </div>
         </div>
     </section>
