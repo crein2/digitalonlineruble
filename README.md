@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Цифровой рубль 2025: школьный проект</title>
     <meta name="description" content="Что такое цифровой рубль? История, планы ЦБ РФ и мнение учеников. Исследование для проекта МОУ СОШ №99 Ярославль">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://www.tbank.ru/finance/blog/digital-ruble/" rel="stylesheet">
     <style>
         :root {
             --primary: #2962ff;
