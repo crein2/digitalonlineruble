@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой рубль 2025: полная история и масштабный план</title>
-    <meta name="description" content="Подробная история цифровых валют от Bitcoin до цифрового рубля. Масштабный план внедрения в 2025 году: 15+ инноваций, госинтеграции и международные расчеты.">
-    <meta name="keywords" content="цифровой рубль, история CBDC, ЦБ РФ, блокчейн, 2025, законодательство, платежи">
+    <title>Цифровой рубль 2025: простое объяснение</title>
+    <meta name="description" content="Что такое цифровой рубль, зачем он нужен и как будет работать. План внедрения и преимущества для граждан РФ.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -13,19 +11,17 @@
             --secondary: #4a148c;
             --accent: #ff6d00;
             --surface: #ffffff;
-            --background: #f5f5f5;
         }
 
         body {
             font-family: 'Inter', sans-serif;
             margin: 0;
             padding: 0;
-            background: var(--background);
             color: #2c3e50;
             line-height: 1.7;
         }
 
-        /* Хедер */
+        /* Хедер с ПЕРВЫМ изображением */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                         url('https://avatars.mds.yandex.net/i?id=d8abf913df627bbaaef0c4fd6b44ec46_l-3979407-images-thumbs&n=13') center/cover;
@@ -34,213 +30,158 @@
             text-align: center;
         }
 
-        .cta-button {
-            padding: 18px 45px;
-            border-radius: 50px;
-            background: var(--primary);
+        /* Определение с ВТОРЫМ изображением */
+        .definition-section {
+            background: url('https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13') center/cover;
             color: white;
-            text-decoration: none;
-            font-weight: 700;
-            margin: 15px;
-            display: inline-block;
-            transition: 0.3s;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        }
-
-        .cta-button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-        }
-
-        /* История */
-        .history-section {
-            background: var(--surface);
+            padding: 100px 20px;
             border-radius: 20px;
-            padding: 60px 20px;
             margin: 40px 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        .history-card {
-            display: flex;
-            gap: 30px;
-            margin-bottom: 40px;
-            align-items: center;
-        }
-
-        .history-icon {
-            flex: 0 0 80px;
-            text-align: center;
-        }
-
-        .history-icon img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            border: 3px solid var(--primary);
-        }
-
-        /* Дорожная карта */
-        .roadmap-section {
-            background: var(--surface);
+        /* Актуальность с ТРЕТЬИМ изображением */
+        .relevance-section {
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+                        url('https://avatars.mds.yandex.net/i?id=a89830aadfe8aa74d11e675bfc2b08f8_l-10452644-images-thumbs&n=13') center/cover;
             border-radius: 20px;
             padding: 60px 20px;
             margin: 60px 0;
         }
 
-        .roadmap-grid {
+        /* План внедрения с ЧЕТВЕРТЫМ изображением */
+        .roadmap-section {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                        url('https://dpru.obs.ru-moscow-1.hc.sbercloud.ru/images/article/2023/07/19/ad4afa0f-d3e4-44cc-b3d6-3fbdb4972355.jpg') center/cover;
+            color: white;
+            padding: 100px 20px;
+            border-radius: 20px;
+            margin: 60px 0;
+        }
+
+        .card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 40px;
+            padding: 20px;
         }
 
-        .roadmap-card {
+        .card {
             background: white;
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             transition: 0.3s;
         }
 
-        .roadmap-card:hover {
+        .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
         }
 
-        /* Футер */
         .footer {
             background: var(--primary);
             color: white;
             text-align: center;
-            padding: 50px 20px;
-        }
-
-        .footer-logo {
-            width: 100%;
-            max-width: 1200px;
-            height: auto;
-            margin: 0 auto 25px;
-            display: block;
-        }
-
-        @media (max-width: 768px) {
-            .history-card {
-                flex-direction: column;
-                text-align: center;
-            }
+            padding: 40px 20px;
         }
     </style>
 </head>
 <body>
-    <!-- Хедер -->
+    <!-- Хедер с ПЕРВЫМ изображением -->
     <section class="hero">
         <h1>Цифровой рубль 2025</h1>
-        <p>От биткоина до национальной валюты: полная история и стратегия будущего</p>
-        <div class="cta-buttons">
-            <a href="#history" class="cta-button">История CBDC</a>
-            <a href="#roadmap" class="cta-button">План 2025</a>
-            <a href="https://www.cbr.ru/" target="_blank" class="cta-button" style="background: var(--accent);">ЦБ РФ</a>
-        </div>
+        <p>Деньги будущего в вашем смартфоне</p>
     </section>
 
-    <!-- История -->
-    <section id="history" class="history-section">
-        <h2 style="color: var(--secondary); text-align: center;">История цифровых валют</h2>
-        
-        <div class="history-card">
-            <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Bitcoin">
-            </div>
-            <div>
-                <h3>2009: Биткоин</h3>
-                <p>Появление первой децентрализованной криптовалюты</p>
-            </div>
-        </div>
-        
-        <div class="history-card">
-            <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Китай">
-            </div>
-            <div>
-                <h3>2014: Цифровой юань</h3>
-                <p>Запуск первой государственной CBDC</p>
-            </div>
-        </div>
-        
-        <div class="history-card">
-            <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Россия">
-            </div>
-            <div>
-                <h3>2017: Исследования ЦБ РФ</h3>
-                <p>Первые работы над цифровым рублем</p>
-            </div>
-        </div>
-        
-        <div class="history-card">
-            <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="EU">
-            </div>
-            <div>
-                <h3>2020: Цифровой евро</h3>
-                <p>ЕЦБ объявляет о разработке цифровой валюты</p>
-            </div>
-        </div>
-        
-        <div class="history-card">
-            <div class="history-icon">
-                <img src="https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13" alt="Пилот">
-            </div>
-            <div>
-                <h3>2022: Прототип ЦБ РФ</h3>
-                <p>Первые тесты платформы цифрового рубля</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- План внедрения -->
-    <section id="roadmap" class="roadmap-section">
-        <h2 style="color: var(--secondary); text-align: center;">План внедрения 2025</h2>
-        
-        <div class="roadmap-grid">
-            <div class="roadmap-card">
-                <h3>Госинтеграция</h3>
+    <!-- Определение с ВТОРЫМ изображением -->
+    <section class="definition-section">
+        <div class="card-grid">
+            <div class="card" style="background: rgba(255,255,255,0.9);">
+                <h2 style="color: var(--secondary);">Что это?</h2>
+                <p>Цифровой рубль - это:</p>
                 <ul>
-                    <li>Полная интеграция с ГИС ЖКХ</li>
-                    <li>Оплата налогов через Госуслуги</li>
-                    <li>Синхронизация с ФНС</li>
+                    <li>Официальные деньги от Центробанка</li>
+                    <li>Хранится в мобильном приложении</li>
+                    <li>Работает как наличные, но в цифре</li>
+                    <li>Защищен криптографией</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Актуальность с ТРЕТЬИМ изображением -->
+    <section class="relevance-section">
+        <div class="card-grid">
+            <div class="card" style="background: rgba(255,255,255,0.95);">
+                <h2 style="color: var(--secondary);">Зачем это нужно?</h2>
+                <p>Актуальность в 2025 году:</p>
+                <ul>
+                    <li>Снижение наличных расчетов</li>
+                    <li>Борьба с теневой экономикой</li>
+                    <li>Упрощение международных переводов</li>
+                    <li>Поддержка цифровой экономики</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- План внедрения с ЧЕТВЕРТЫМ изображением -->
+    <section class="roadmap-section">
+        <div class="card-grid">
+            <div class="card" style="background: rgba(0,0,0,0.7); color: white;">
+                <h2>План внедрения</h2>
+                <ol>
+                    <li>2023: Тестирование в 12 регионах</li>
+                    <li>2024: Интеграция с Госуслугами</li>
+                    <li>2025: Массовый запуск для граждан</li>
+                </ol>
+                <p>Важные этапы:</p>
+                <ul>
+                    <li>Поддержка 20+ банков</li>
+                    <li>Офлайн-режим до 72 часов</li>
+                    <li>Комиссии от 0.05%</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="benefits-section" style="padding: 60px 20px;">
+        <div class="card-grid">
+            <div class="card">
+                <h3>Для граждан</h3>
+                <ul>
+                    <li>Мгновенные переводы</li>
+                    <li>Безопасные платежи</li>
+                    <li>Удобный контроль расходов</li>
                 </ul>
             </div>
             
-            <div class="roadmap-card">
-                <h3>Международные расчеты</h3>
+            <div class="card">
+                <h3>Для бизнеса</h3>
                 <ul>
-                    <li>Поддержка 20+ валют</li>
-                    <li>Интеграция с SWIFT 2.0</li>
-                    <li>Мгновенные кросс-граничные переводы</li>
+                    <li>Автоматизация расчетов</li>
+                    <li>Снижение издержек</li>
+                    <li>Новые возможности</li>
                 </ul>
             </div>
             
-            <div class="roadmap-card">
-                <h3>Безопасность</h3>
+            <div class="card">
+                <h3>Для государства</h3>
                 <ul>
-                    <li>Криптография ГОСТ Р 34.12-2015</li>
-                    <li>Биометрическая аутентификация 2.0</li>
-                    <li>Система мгновенного блокирования</li>
+                    <li>Контроль экономики</li>
+                    <li>Сбор налогов</li>
+                    <li>Цифровая трансформация</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- Футер -->
     <footer class="footer">
-        <img src="https://dpru.obs.ru-moscow-1.hc.sbercloud.ru/images/article/2023/07/19/ad4afa0f-d3e4-44cc-b3d6-3fbdb4972355.jpg" 
-             alt="Цифровой рубль 2025"
-             class="footer-logo">
         <p>© 2025 Цифровая экономика. Все права защищены</p>
         <p>
             <a href="https://www.cbr.ru/" target="_blank" style="color: white; text-decoration: underline;">
-                Официальный сайт ЦБ РФ
+                Официальный сайт Центробанка
             </a>
         </p>
     </footer>
