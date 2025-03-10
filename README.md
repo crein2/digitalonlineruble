@@ -127,9 +127,6 @@
             <div class="card">
             <h3>Октябрь 2020: Первые мысли о цифровом рубле</h3>
                 <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[4]</a></p>
-                <div class="card">
-            <h3>Октябрь 2020: Первые мысли о цифровом рубле</h3>
-                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[4]</a></p>
             </div>
         </div>
     </section>
