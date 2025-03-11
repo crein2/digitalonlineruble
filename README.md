@@ -173,9 +173,8 @@
                 <h3>Был разработал опрос,который анализирует твое мнение</h3>
                 <p>Интересные резутаты:</p>
                 <ul>
-                    <li>Ты можешь стать участником уникального опроса именно <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">[Анкета]</a></li>
+                    <li>Ты можешь стать участником уникального опроса именно <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">ТУТ</a></li>
                 </ul>
-                <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses" class="source-link">[Наша анкета]</a>
             </div>
         </div>
     </section>
