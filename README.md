@@ -170,9 +170,9 @@
         <h2 style="color: var(--secondary); text-align: center;">Мнение учеников</h2>
         <div class="card-grid">
             <div class="card">
-                <h3>Был разработал опрос,который анализирует твое мнение</h3>
+                <h3>Был разработал уникальный опрос,который анализирует твое мнение</h3>
                 <ul>
-                    <li>Ты можешь стать участником уникального опроса именно <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">ТУТ</a></li>
+                    <li>Ты можешь стать его участником <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">ТУТ</a></li>
                 </ul>
             </div>
         </div>
