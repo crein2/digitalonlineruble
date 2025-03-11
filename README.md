@@ -175,9 +175,6 @@
                     <li>Ты можешь стать его участником <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">ТУТ</a></li>
                 </ul>
             </div>
-<!-- Футер -->
-<footer class="footer">
-</footer>
         </div>
     </section>
   <!-- Источники в одну строку -->
