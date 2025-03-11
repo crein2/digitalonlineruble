@@ -181,7 +181,7 @@
     <!-- Тест "Проверь свои знания" -->
 <section class="content-section">
     <div class="container">
-        <h1>Тест: Цифровой рубль</h1>
+        <h1>Проверь свои знания прамо сейчас!</h1>
 
         <form id="quizForm">
             <!-- Вопрос 1 -->
