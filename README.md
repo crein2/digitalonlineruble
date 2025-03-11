@@ -170,12 +170,10 @@
         <h2 style="color: var(--secondary); text-align: center;">Мнение учеников</h2>
         <div class="card-grid">
             <div class="card">
-                <h3>Был разработал опрос,в нем поучаствовало 25 респондентов</h3>
+                <h3>Был разработал опрос,который анализирует твое мнение</h3>
                 <p>Интересные резутаты:</p>
                 <ul>
-                    <li>64% верят,что цифровой рубль может стать альтернативой бумажным деньгам в будущем</li>
-                    <li>72% верят в безопастность транзакций</li>
-                    <li>64% верит,что цифровой рубль поможет в борьбе с коррупцией</li>
+                    <li>Ты можешь стать участником уникального опроса именно <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">[Анкета]</a></li>
                 </ul>
                 <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses" class="source-link">[Наша анкета]</a>
             </div>
