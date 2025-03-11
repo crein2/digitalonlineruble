@@ -273,8 +273,6 @@
             feedbackDiv.innerHTML = feedback;
         }
     </script>
-            </div>
-        </div>
     </section>
   <!-- Источники в одну строку -->
     <section class="sources">
