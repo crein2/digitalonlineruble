@@ -188,9 +188,9 @@
             <div class="question">
                 <p><strong>1. Что такое цифровой рубль?</strong></p>
                 <div class="options">
-                    <label><input type="radio" name="1" value="a"> Новая криптовалюта</label>
-                    <label><input type="radio" name="1" value="b"> Электронные деньги от ЦБ РФ</label>
-                    <label><input type="radio" name="1" value="c"> Программа для банков</label>
+                    <label><input type="radio" name="1" value="1"> Новая криптовалюта</label>
+                    <label><input type="radio" name="1" value="2"> Электронные деньги от ЦБ РФ</label>
+                    <label><input type="radio" name="1" value="3"> Программа для банков</label>
                 </div>
             </div>
 
@@ -198,9 +198,9 @@
             <div class="question">
                 <p><strong>2. В каком году начался пилотный проект цифрового рубля?</strong></p>
                 <div class="options">
-                    <label><input type="radio" name="2" value="a"> 2020</label>
-                    <label><input type="radio" name="2" value="b"> 2023</label>
-                    <label><input type="radio" name="2" value="c"> 2025</label>
+                    <label><input type="radio" name="2" value="1"> 2020</label>
+                    <label><input type="radio" name="2" value="2"> 2023</label>
+                    <label><input type="radio" name="2" value="3"> 2025</label>
                 </div>
             </div>
 
@@ -208,9 +208,9 @@
             <div class="question">
                 <p><strong>3. Какой закон легализовал цифровые активы в России?</strong></p>
                 <div class="options">
-                    <label><input type="radio" name="3" value="a"> Закон о ЦФА</label>
-                    <label><input type="radio" name="3" value="b"> Закон о налогах</label>
-                    <label><input type="radio" name="3" value="c"> Закон о банках</label>
+                    <label><input type="radio" name="3" value="1"> Закон о ЦФА</label>
+                    <label><input type="radio" name="3" value="2"> Закон о налогах</label>
+                    <label><input type="radio" name="3" value="3"> Закон о банках</label>
                 </div>
             </div>
 
@@ -218,9 +218,9 @@
             <div class="question">
                 <p><strong>4. Сколько регионов участвует в пилоте цифрового рубля?</strong></p>
                 <div class="options">
-                    <label><input type="radio" name="4" value="a"> 5</label>
-                    <label><input type="radio" name="4" value="b"> 12</label>
-                    <label><input type="radio" name="4" value="c"> 20</label>
+                    <label><input type="radio" name="4" value="1"> 5</label>
+                    <label><input type="radio" name="4" value="2"> 12</label>
+                    <label><input type="radio" name="4" value="3"> 20</label>
                 </div>
             </div>
 
@@ -228,9 +228,9 @@
             <div class="question">
                 <p><strong>5. Какая комиссия планируется за переводы через цифровой рубль?</strong></p>
                 <div class="options">
-                    <label><input type="radio" name="5" value="a"> 0%</label>
-                    <label><input type="radio" name="5" value="b"> 0.05%</label>
-                    <label><input type="radio" name="5" value="c"> 1%</label>
+                    <label><input type="radio" name="5" value="1"> 0%</label>
+                    <label><input type="radio" name="5" value="2"> 0.05%</label>
+                    <label><input type="radio" name="5" value="3"> 1%</label>
                 </div>
             </div>
 
@@ -244,11 +244,11 @@
     <script>
         function checkAnswers() {
             const correctAnswers = {
-                1: "b",
-                2: "b",
-                3: "a",
-                4: "b",
-                5: "b"
+                1: "2",
+                2: "2",
+                3: "1",
+                4: "2",
+                5: "2"
             };
 
             let score = 0;
