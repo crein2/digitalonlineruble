@@ -110,27 +110,27 @@
         <div class="card-grid">
             <div class="card">
                 <h3>1983: Концепция</h3>
-                <p>Дэвид Шумейкер описал цифровые деньги <a href="https://coinpost.finance/p/1666-kak-zarozhdalis-cifrovye-dengi" class="source-link">[Подробнее тут]</a></p>
+                <p>Дэвид Шумейкер описал цифровые деньги <a href="https://coinpost.finance/p/1666-kak-zarozhdalis-cifrovye-dengi" class="source-link">Подробнее тут</a></p>
             </div>
             <div class="card">
                 <h3>2009: Bitcoin</h3>
-                <p>Первая криптовалюта Сатоши Накамото <a href="https://www.ixbt.com/live/crypto/kto-sozdal-bitcoin-kto-takoy-satoshi-nakamoto.html" class="source-link">[Подробнее тут]</a></p>
+                <p>Первая криптовалюта Сатоши Накамото <a href="https://www.ixbt.com/live/crypto/kto-sozdal-bitcoin-kto-takoy-satoshi-nakamoto.html" class="source-link">Подробнее тут</a></p>
             </div>
             <div class="card">
                 <h3>2020: Закон о ЦФА</h3>
-                <p>Россия ввела первый закон о регулирование цифровой валюты <a href="https://www.consultant.ru/document/cons_doc_LAW_358753/" class="source-link">[Подробнее тут]</a></p>
+                <p>Россия ввела первый закон о регулирование цифровой валюты <a href="https://www.consultant.ru/document/cons_doc_LAW_358753/" class="source-link">Подробнее тут</a></p>
             </div>
             <div class="card">
                 <h3>Октябрь 2020: Первые мысли о цифровом рубле</h3>
-                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">[Подробнее тут]</a></p>
+                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">Подробнее тут</a></p>
             </div>
             <div class="card">
             <h3>2021: Концепция цифрового рубля</h3>
-                <p>ЦБ РФ описал преимущества: мгновенные платежи, снижение комиссий, борьба с теневой экономикой.<a href="https://cbr.ru/Content/Document/File/120075/concept_08042021.pdf" class="source-link">[Подробнее тут]</a></p>
+                <p>ЦБ РФ описал преимущества: мгновенные платежи, снижение комиссий, борьба с теневой экономикой.<a href="https://cbr.ru/Content/Document/File/120075/concept_08042021.pdf" class="source-link">Подробнее тут</a></p>
             </div>
             <div class="card">
             <h3>2025: Планируется массовый запуск для всех граждан</h3>
-                <p>«Крупнейшие банки к 1 июля 2025 года должны будут обеспечить своим клиентам возможность проводить операции с цифровыми рублями»<a href="https://russian.rt.com/business/article/1367840-cifrovoi-rubl-vnedrenie" class="source-link">[Подробнее тут]</a></p>
+                <p>«Крупнейшие банки к 1 июля 2025 года должны будут обеспечить своим клиентам возможность проводить операции с цифровыми рублями»<a href="https://russian.rt.com/business/article/1367840-cifrovoi-rubl-vnedrenie" class="source-link">Подробнее тут</a></p>
             </div>
         </div>
     </section>
@@ -172,7 +172,7 @@
             <div class="card">
                 <h3>Был разработал уникальный опрос,который анализирует твое мнение</h3>
                 <ul>
-                    <li>Ты можешь стать его участником <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">ТУТ</a></li>
+                    <li>Ты можешь стать его <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">участником</a></li>
                 </ul>
             </div>
         </div>
