@@ -179,15 +179,16 @@
 
   <!-- Результаты опроса -->
     <section class="content-section">
-        <h2 style="color: var(--secondary); text-align: center;">Мнение учеников</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Презентация по теме цифрового рубля</h2>
         <div class="card-grid">
             <div class="card">
-                <h3>Был разработал уникальный опрос,который анализирует твое мнение</h3>
+                <h3>что то напишем</h3>
                 <ul>
                 <li>Ты можешь стать его <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">участником</a></li>
                 </ul>
         </div> <!-- Закрытие card -->
 </div> <!-- Закрытие card-grid -->
+
          <!-- Тест "Проверь свои знания" -->
 <section class="content-section">
     <div class="container">
