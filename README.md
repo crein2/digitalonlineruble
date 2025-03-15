@@ -32,14 +32,14 @@
 
         /* Определение с блокчейн-фоном */
         .definition-section {
-            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
                         url('https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13') center/cover;
             padding: 80px 20px;
         }
 
         /* Планы ЦБ с технологичным фоном */
         .roadmap-section {
-            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
                         url('https://avatars.mds.yandex.net/i?id=a89830aadfe8aa74d11e675bfc2b08f8_l-10452644-images-thumbs&n=13') center/cover;
             padding: 80px 20px;
         }
