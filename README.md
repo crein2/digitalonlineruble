@@ -32,7 +32,7 @@
 
         /* Определение с блокчейн-фоном */
         .definition-section {
-            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+            background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
                         url('https://avatars.mds.yandex.net/i?id=3fe87a1d30d12a848df0c7f7e0e01817_l-11042380-images-thumbs&n=13') center/cover;
             padding: 80px 20px;
         }
