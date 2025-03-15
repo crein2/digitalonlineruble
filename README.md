@@ -180,7 +180,7 @@
 <section class="content-section">
     <div class="container">
         <h1>Проверь свои знания прямо сейчас!</h1>
-          </ul>
+        
             </div>
      <form id="quizForm">
             <!-- Вопрос 1 -->
