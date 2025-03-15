@@ -194,8 +194,12 @@
 <section class="content-section">
     <div class="container">
         <h1>Проверь свои знания прямо сейчас!</h1>
+          </ul>
+            </div>
+        </div>
+    </section>
 
-        <form id="quizForm">
+     <form id="quizForm">
             <!-- Вопрос 1 -->
             <div class="question">
                 <p><strong>1. Что такое цифровой рубль?</strong></p>
@@ -307,5 +311,3 @@
     <footer class="footer">
         <p>МОУ "Средняя школа №99" • Ярославль 2025</p>
     </footer>
-</body>
-</html>
