@@ -180,14 +180,13 @@
     
     <!-- Презентация по данной теме -->
     <section class="content-section">
-        <h2 style="color: var(--secondary); text-align: center;">План Центробанка</h2>
+        <h2 style="color: var(--secondary); text-align: center;">Презентация для ознакомления</h2>
         <div class="card-grid">
             <div class="card">
                                     <h3>Представь, что деньги, которыми ты пользуешься каждый день, получили супер-апгрейд</h3>
                 <ol>
-                  <p> Хочешь узнать всё о цифровом рубле и как он повлияет на твою жизнь? Ответы - в нашей презентации!</p> 
+                   <li>Хочешь узнать всё о цифровом рубле и как он повлияет на твою жизнь? Ответы - в нашей <a https://docs.google.com/presentation/d/1WbPzOiWaFWnHtUEKD0_HnBQBIvSnuttmS-DtHV7ZDI8/edit#slide=id.p1">презентации!</a></li>
                 </ol>
-                <a href="https://cbr.ru/press/event/?id=20991">Дорожная карта ЦБ</a>
             </div>
         </div>
     </section>
