@@ -114,23 +114,23 @@
             </div>
             <div class="card">
                 <h3>2009: Bitcoin</h3>
-                <p>Первая криптовалюта Сатоши Накамото <a href="https://www.ixbt.com/live/crypto/kto-sozdal-bitcoin-kto-takoy-satoshi-nakamoto.html" class="source-link">Подробнее тут</a></p>
+                <p><a href="https://www.ixbt.com/live/crypto/kto-sozdal-bitcoin-kto-takoy-satoshi-nakamoto.html" class="source-link">Первая криптовалюта Сатоши Накамото </a></p>
             </div>
             <div class="card">
                 <h3>2020: Закон о ЦФА</h3>
-                <p>Россия ввела первый закон о регулирование цифровой валюты <a href="https://www.consultant.ru/document/cons_doc_LAW_358753/" class="source-link">Подробнее тут</a></p>
+                <p><a href="https://www.consultant.ru/document/cons_doc_LAW_358753/" class="source-link">Россия ввела первый закон о регулирование цифровой валюты</a></p>
             </div>
             <div class="card">
                 <h3>Октябрь 2020: Первые мысли о цифровом рубле</h3>
-                <p>Вышла первая мысль о своей цифровой валюте <a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">Подробнее тут</a></p>
+                <p><a href="https://buhguru.com/wp-content/uploads/2020/10/cb-cifrovoj-rubl-doklad-2020.pdf" class="source-link">Вышла первая мысль о своей цифровой валюте </a></p>
             </div>
             <div class="card">
             <h3>2021: Концепция цифрового рубля</h3>
-                <p>ЦБ РФ описал преимущества: мгновенные платежи, снижение комиссий, борьба с теневой экономикой.<a href="https://cbr.ru/Content/Document/File/120075/concept_08042021.pdf" class="source-link">Подробнее тут</a></p>
+                <p><a href="https://cbr.ru/Content/Document/File/120075/concept_08042021.pdf" class="source-link">ЦБ РФ описал преимущества: мгновенные платежи, снижение комиссий, борьба с теневой экономикой.</a></p>
             </div>
             <div class="card">
             <h3>2025: Планируется массовый запуск для всех граждан</h3>
-                <p>«Крупнейшие банки к 1 июля 2025 года должны будут обеспечить своим клиентам возможность проводить операции с цифровыми рублями»<a href="https://russian.rt.com/business/article/1367840-cifrovoi-rubl-vnedrenie" class="source-link">Подробнее тут</a></p>
+                <p><a href="https://russian.rt.com/business/article/1367840-cifrovoi-rubl-vnedrenie" class="source-link">«Крупнейшие банки к 1 июля 2025 года должны будут обеспечить своим клиентам возможность проводить операции с цифровыми рублями»</a></p>
             </div>
         </div>
     </section>
