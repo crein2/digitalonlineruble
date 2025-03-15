@@ -185,7 +185,7 @@
             <div class="card">
                                     <h3>Представь, что деньги, которыми ты пользуешься каждый день, получили супер-апгрейд</h3>
                 <ol>
-                   <li>Хочешь узнать всё о цифровом рубле и как он повлияет на твою жизнь? Ответы - в нашей <a https://docs.google.com/presentation/d/1WbPzOiWaFWnHtUEKD0_HnBQBIvSnuttmS-DtHV7ZDI8/edit#slide=id.p1">презентации!</a></li>
+                   <li>Хочешь узнать всё о цифровом рубле и как он повлияет на твою жизнь? Ответы - в нашей<a href="https://docs.google.com/presentation/d/1WbPzOiWaFWnHtUEKD0_HnBQBIvSnuttmS-DtHV7ZDI8/edit#slide=id.p1"> презентации! </a></li>
                 </ol>
             </div>
         </div>
