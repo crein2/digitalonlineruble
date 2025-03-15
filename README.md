@@ -184,8 +184,8 @@
             <h3>Перейдя по данному Qr-коду вы можете ознакомится с ней</h3>
             <div class="gallery">
                 <!-- Изображение 1 -->
-                <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjqAY.gif')">
-                    <img src="https://i.yapx.ru/YjqAY.gif" alt="Qr-код">
+                <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjqFg.jpg')">
+                    <img src="https://i.yapx.ru/YjqFg.jpg" alt="Qr-код">
                 </div>
             </div> <!-- Закрытие gallery -->
         </div> <!-- Закрытие card -->
