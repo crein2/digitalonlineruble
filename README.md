@@ -184,8 +184,8 @@
             <h3>Перейдя по данному Qr-коду вы можете ознакомится с ней</h3>
             <div class="gallery">
                 <!-- Изображение 1 -->
-                <div class="gallery-item" onclick="openModal('http://qrcoder.ru/code/?https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1WbPzOiWaFWnHtUEKD0_HnBQBIvSnuttmS-DtHV7ZDI8%2Fedit%23slide%3Did.p1&10&0')">
-                    <img src="http://qrcoder.ru/code/?https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1WbPzOiWaFWnHtUEKD0_HnBQBIvSnuttmS-DtHV7ZDI8%2Fedit%23slide%3Did.p1&10&0" alt="Qr-код">
+                <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjqJi.gif')">
+                    <img src="https://i.yapx.ru/YjqJi.gif" alt="Qr-код">
                 </div>
             </div> <!-- Закрытие gallery -->
         </div> <!-- Закрытие card -->
