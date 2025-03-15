@@ -174,6 +174,8 @@
                 <ul>
                 <li>Ты можешь стать его <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">участником</a></li>
                 </ul>
+        </div> <!-- Закрытие card -->
+</div> <!-- Закрытие card-grid -->
          <!-- Тест "Проверь свои знания" -->
 <section class="content-section">
     <div class="container">
