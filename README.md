@@ -318,7 +318,6 @@
         });
     });
 </script>
-                </ol>
             </div>
         </div>
     </section>
