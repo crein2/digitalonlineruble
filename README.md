@@ -173,10 +173,8 @@
                 <h3>Был разработал уникальный опрос,который анализирует твое мнение</h3>
                 <ul>
                     <li>Ты можешь стать его <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">участником</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+               </div>
+         </section>
     
     <!-- Презентация по данной теме -->
     <section class="content-section">
