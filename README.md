@@ -179,9 +179,9 @@
 
 <div class="gallery">
         <!-- Изображение 1 -->
-        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHZ5.jpg')">
-            <img src="https://i.yapx.ru/YjHZ5.jpg" alt="Цифровое искусство 1">
-            <p>Adobe Photoshop</p>
+        <div class="gallery-item" onclick="openModal('')">
+            <img src="" alt="Цифровое искусство 1">
+            <p></p>
         </div>
     
          <!-- Тест "Проверь свои знания" -->
