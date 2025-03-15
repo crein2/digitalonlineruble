@@ -110,7 +110,7 @@
         <div class="card-grid">
             <div class="card">
                 <h3>1983: Концепция</h3>
-                <p>Дэвид Шумейкер описал цифровые деньги <a href="https://coinpost.finance/p/1666-kak-zarozhdalis-cifrovye-dengi" class="source-link">Подробнее тут</a></p>
+                <p><a href="https://coinpost.finance/p/1666-kak-zarozhdalis-cifrovye-dengi" class="source-link">Дэвид Шумейкер описал цифровые деньги </a></p>
             </div>
             <div class="card">
                 <h3>2009: Bitcoin</h3>
