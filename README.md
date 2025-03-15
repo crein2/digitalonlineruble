@@ -175,21 +175,7 @@
                     <li>Ты можешь стать его <a href="https://docs.google.com/forms/d/1yT2emwbDjss_mtUOvg86BQE1ntzfg8167OykCZG2uaQ/edit#responses">участником</a></li>
                </div>
          </section>
-    
-    <!-- Презентация по данной теме -->
-    <section class="content-section">
-        <h2 style="color: var(--secondary); text-align: center;">Презентация для ознакомления</h2>
-        <div class="card-grid">
-            <div class="card">
-                                    <h3>Представь, что деньги, которыми ты пользуешься каждый день, получили супер-апгрейд</h3>
-                <ol>
-                <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </div>
-</div>
-
+         
     <!-- Тест "Проверь свои знания" -->
 <section class="content-section">
     <div class="container">
