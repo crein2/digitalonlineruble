@@ -238,8 +238,7 @@
 
         <div class="result" id="result"></div>
         <div class="feedback" id="feedback"></div>
-    </div>
-
+    
     <script>
         function checkAnswers() {
             const correctAnswers = {
