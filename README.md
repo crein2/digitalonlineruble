@@ -194,9 +194,6 @@
         <h1>Проверь свои знания прямо сейчас!</h1>
           </ul>
             </div>
-        </div>
-    </section>
-
      <form id="quizForm">
             <!-- Вопрос 1 -->
             <div class="question">
